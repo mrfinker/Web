@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    width: 100%;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+
+}
+
+.nav{
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.card h2{
+    font-size: 30px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: -10px;
+}
+
+.nav .card{
+    border: solid red 1px;
+}
+
+.card ul{
+    display: inline-flex;
+    padding: 5px;
+    border: solid red;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    width: 100%;
+    align-items: center;
+    list-style: none;
+}
+
+.card li{
+    padding: 10px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
