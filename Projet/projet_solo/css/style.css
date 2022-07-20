@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 99.7%;
+  height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: center;
+  background: url(../img/close-up-attractive-carefree-young-woman-sitting-floor.jpg);
+  background-size: cover;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 12px;
+}
+
+#container-id h1 {
+  text-decoration: underline;
+  padding-bottom: 40px;
+}
+
+#container-id {
+  margin-right: 100px;
+  border: solid;
+}
+
+#container-id,
+div .container1 {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  background-color: white;
+  flex-direction: column;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+div .container1.one {
+  height: 70%;
+  border-radius: 32px;
+}
+
+#container-id .btn {
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 12px;
+  border: none;
+}
+
+#container-id .btn:hover {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#container-id .input-text {
+  width: 300px;
+  height: 30px;
+  border: none;
+}
+
+#container label {
+  display: flex;
+  align-items: flex-start;
+}
+
+.container {
+  margin-bottom: 10px;
+  width: 500px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+input {
+  background-color: rgba(128, 128, 128, 0.04);
+  border-radius: 6px;
+}/*# sourceMappingURL=style.css.map */
