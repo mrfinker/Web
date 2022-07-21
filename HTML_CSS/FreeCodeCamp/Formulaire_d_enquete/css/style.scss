@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(62, 62, 117);
+    color: white;
+}
+
+#title{
+    text-align: center;
+    margin-top: 42px;
+}
+
+#description{
+    text-align: center;
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#survey-form{
+    width: 34%;
+    height: auto;
+    border-radius: 32px 32px 0 0;
+    background-color: rgba(0, 0, 0, 0.300);
+    // margin-top: 34px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 34px auto 0;
+    padding: 34px 38px 0px 38px;
+}
+
+span{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#survey-form label,
+p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+#survey-form input.type-one,
+#survey-form #dropdown.type-one{
+    width: auto;
+    height: 4vh;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 14px;
+}
+
+.block-radio{
+    margin-top: 6px;
+    margin-bottom: 34px;
+}
+
+.radio-in{
+    display: flex;
+}
+
+.radio-btn{
+    margin-right: 6px;
+}
+
+.check-in{
+    display: flex;
+}
+
+textarea{
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 34px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+input.submit:hover{
+    cursor: pointer;
+}
+
+input.submit{
+    background-color: rgb(37, 139, 37);
+    width: 100%;
+    height: 4vh;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 32px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}

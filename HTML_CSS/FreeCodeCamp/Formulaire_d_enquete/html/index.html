@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Formulaire</h1>
+    <p id="description">FreeCodeCamp Test d'enregistrement pour certification part-1</p>
+
+    <form id="survey-form" action="" method="post">
+        <label id="name-label" for="name">Nom</label>
+        <input id="name" class="type-one" type="text" placeholder="Entrer votre nom" required>
+
+        <label id="email-label" for="email">Email</label>
+        <input id="email" class="type-one" type="email" placeholder="Entrer votre mail" required>
+
+        <label id="number-label" for="number">Age<span>(facultatif)</span></label>
+        <input id="number" class="type-one" type="number" placeholder="Entrer votre Age" min="1" max="150">
+
+        <label for="dropdown">Quel est le meilleur choix qui vous decris le mieux</label>
+        <select id="dropdown" class="type-one">
+            <option value="etudiant">Etudiant</option>
+            <option value="autres">Autres</option>
+        </select>
+
+        <div class="block-radio">
+            <p>Pouviez-vous recommander notre plateform ?</p>
+            <div class="radio-in">
+                <input class="radio-btn" type="radio" name="choix" id="absolument" value="absolument">
+                <label for="absolument">Absolument</label>
+            </div>
+            <div class="radio-in">
+                <input class="radio-btn" type="radio" name="choix" id="peut_etre" value="peut_etre">
+                <label for="">Peut-etre</label>
+            </div>
+        </div>
+
+        <label for="dropdown">Quel est la meilleur fonctionnalitée</label>
+        <select id="dropdown" class="type-one">
+            <option value="etudiant">Open source</option>
+            <option value="autres">Projets</option>
+        </select>
+
+        <div class="block-radio block-check">
+            <p>Que souhaiterez vous amelioré ? <span>(cochez toutes les casesq si oui)</span></p>
+                <input class="radio-btn check-btn" type="checkbox" name="laravel" id="laravel" value="Laravel"> Laravel <br>
+                <input class="radio-btn check-btn" type="checkbox" name="node" id="node" value="Node.Js"> Node.Js
+        </div>
+
+        <p>Des commentaires ou des suggestions</p>
+        <textarea name="commentaire" id="textarea" cols="30" rows="10" placeholder="Votre commentaire ici"></textarea>
+
+        <input class="submit" type="submit" id="submit" value="Submit">
+    </form>
+</body>
+</html>
