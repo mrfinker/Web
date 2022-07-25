@@ -45,7 +45,8 @@ app.post('/auth', function(request, response) {
 				request.session.username = username;
 				// Redirect to home page
 				response.redirect('/home');
-			} else {
+			}
+			else {
 				response.send('Incorrect Username and/or Password!');
 			}
 			response.end();
@@ -57,7 +58,7 @@ app.post('/auth', function(request, response) {
 });
 
 // http://localhost:3000/home
-app.get('/home', function(request, response) {
+app.get('/index.html', function(request, response) {
 	// If the user is loggedin
 	if (request.session.loggedin) {
 		// Output username

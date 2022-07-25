@@ -6,12 +6,13 @@
 body {
     background: url(/close-up-attractive-carefree-young-woman-sitting-floor.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .login {
     width: 400px;
     background-color: #ffffff;
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
-    margin: 250px 500px;
+    margin: 250px auto;
     border-radius: 16px;
 }
 .login h1 {
