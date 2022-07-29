@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../finition_project/static/style.css">
+</head>
+<body>
+    <div id="popuplogin">
+        <div class="login">
+			<h1>Login</h1>
+			<form action="/auth" method="post">
+				<label for="username">
+					<i class=" fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="Nom utilisateur" id="username" required>
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Mots de passe" id="password" required>
+                <p class="registration">Vous n'avez pas de compte <a href="register.html" class="register">cliquer ici</a> !</p>
+				<input type="submit" value="Login">
+			</form>
+		</div>
+    </div>
+</body>
+</html>

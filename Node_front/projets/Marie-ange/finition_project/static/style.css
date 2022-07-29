@@ -5,6 +5,10 @@
   font-family: sans-serif;
 }
 
+#profile{
+  text-transform: capitalize;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -517,135 +521,6 @@ footer a:hover {
   color: #009fb7;
 }
 
-.login {
-  width: 400px;
-  background-color: #ffffff;
-  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
-  margin: 0 auto;
-  border-radius: 16px;
-}
-
-.login h1 {
-  text-align: center;
-  color: #5b6574;
-  font-size: 24px;
-  padding: 20px 0 20px 0;
-  border-bottom: 1px solid #dee0e4;
-}
-
-.login form {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-top: 20px;
-}
-
-.login form label {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50px;
-  height: 50px;
-  background-color: #3274d6;
-  color: #ffffff;
-  border-radius: 16px 0 0 16px;
-}
-
-.login form input[type=password], .login form input[type=text], .login form input[type=email] {
-  width: 310px;
-  height: 50px;
-  border: 1px solid #dee0e4;
-  margin-bottom: 10px;
-  padding: 0 15px;
-  border-radius: 0 16px 16px 0;
-}
-
-.login form input[type=submit] {
-  width: 100%;
-  padding: 15px;
-  margin-top: 10px;
-  background-color: #3274d6;
-  border: 0;
-  cursor: pointer;
-  font-weight: bold;
-  color: #ffffff;
-  transition: background-color 0.2s;
-  border-radius: 0 0 16px 16px;
-}
-
-.login form input[type=submit]:hover {
-  background-color: #2868c7;
-  transition: background-color 0.2s;
-}
-
-.login .registration {
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.login .registration .register {
-  text-decoration: none;
-  color: #3274d6;
-}
-
-.container-all#blur.active {
-  filter: blur(12px);
-  pointer-events: none;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-}
-
-#popuplogin {
-  z-index: 100;
-  position: fixed;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.5s;
-}
-
-#popuplogin.active {
-  top: 50%;
-  visibility: visible;
-  opacity: 1;
-  transform: 0;
-}
-
-#popexit {
-  color: white;
-  font-size: 24px;
-  width: 5vh;
-  height: 5vh;
-  padding: 2.5px;
-  background-color: rgb(156, 12, 12);
-  border: none;
-  border-radius: 12px;
-  margin-bottom: 20px;
-  cursor: pointer;
-}
-
-#popupregister {
-  z-index: 100;
-  position: fixed;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.5s;
-}
-
-#popupregister.active {
-  top: 50%;
-  visibility: visible;
-  opacity: 1;
-  transform: 0;
-}
-
 #services {
   margin: 80px 40px 30px 40px;
 }
@@ -720,3 +595,94 @@ footer a:hover {
   padding: 0 15px;
   border-radius: 16px 16px 16px 16px;
 }/*# sourceMappingURL=style.css.map */
+
+#popuplogin{
+  /* border: solid; */
+  width: 120vh;
+  height: 60vh;
+  margin: 0 auto;
+  margin-top: 9%;
+  padding-top: 5%;
+}
+
+#popupregister{
+  /* border: solid; */
+  width: 120vh;
+  height: 80vh;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding-top: 4%;
+}
+
+.login {
+  width: 400px;
+  background-color: #ffffff;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  /* border: solid; */
+  margin: 0 auto;
+  border-radius: 16px;
+}
+
+.login h1 {
+  text-align: center;
+  color: #5b6574;
+  font-size: 24px;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #dee0e4;
+}
+
+.login form {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.login form label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #3274d6;
+  color: #ffffff;
+  border-radius: 16px 0 0 16px;
+}
+
+.login form input[type=password], .login form input[type=text], .login form input[type=email] {
+  width: 310px;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 10px;
+  padding: 0 15px;
+  border-radius: 0 16px 16px 0;
+}
+
+.login form input[type=submit] {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  background-color: #3274d6;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+  transition: background-color 0.2s;
+  border-radius: 0 0 16px 16px;
+}
+
+.login form input[type=submit]:hover {
+  background-color: #2868c7;
+  transition: background-color 0.2s;
+}
+
+.login .registration {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.login .registration .register {
+  text-decoration: none;
+  color: #3274d6;
+}

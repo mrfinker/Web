@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="../finition_project/static/style.css">
+</head>
+<body>
+    <div id="popupregister">
+        <div class="login">
+			<h1>Register</h1>
+			<form action="/reg" method="post">
+				<label for="name">
+					<i class=" fas fa-user"></i>
+				</label>
+				<input type="text" name="name" placeholder="Mettez votre nom" id="name" required>
+				<label for="prenom">
+					<i class=" fas fa-user"></i>
+				</label>
+				<input type="text" name="prenom" placeholder="Mettez votre prenom" id="prenom" required>
+				<label for="username">
+					<i class=" fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="Nom utilisateur" id="username" required>
+				<label for="email">
+					<i class=" fas fa-user"></i>
+				</label>
+				<input type="email" name="email" placeholder="Mettez votre mail" id="email" required>
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Mots de passe" id="password" required>
+				<label for="conf-password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="conf-password" placeholder="Confirmer votre mots de passe" id="conf-password" required>
+				<p class="registration">Vous avez deja un compte <a href="login.html" class="register" >cliquer ici</a> !</p>
+				<input type="submit" value="Enregistrement">
+			</form>
+		</div>
+    </div>
+</body>
+</html>

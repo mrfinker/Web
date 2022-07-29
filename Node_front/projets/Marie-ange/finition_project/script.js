@@ -1,25 +1,8 @@
-function toggle(){
-    var blur=document.getElementById("blur");
-    blur.classList.toggle("active");
-    var popuplogin = document.getElementById("popuplogin");
-    popuplogin.classList.toggle("active")
-    togglle.exit()
-}
-
-function togglle(){
-    var blur=document.getElementById("blur");
-    blur.classList.toggle("active");
-    var popupregister = document.getElementById("popupregister")
-    popupregister.classList.toggle("active")
-    toggle().exit()
-}
-
-
-
-const mysql = require('mysql');
 const express = require('express');
 const session = require('express-session');
+const mysql = require('mysql');
 const path = require('path');
+const app = express();
 
 const connection = mysql.createConnection({
 	host     : 'localhost',
@@ -27,8 +10,6 @@ const connection = mysql.createConnection({
 	password : 'root',
 	database : 'nodelogin'
 });
-
-const app = express();
 
 app.use(session({
 	secret: 'secret',
@@ -42,7 +23,7 @@ app.use(express.static(path.join(__dirname, 'static')));
 // http://localhost:3000/
 app.get('/', function(request, response) {
 	// Render login template
-	response.sendFile(path.join(__dirname + '/index.html'));
+	response.sendFile(path.join(__dirname + '/login.html'));
 });
 
 // http://localhost:3000/auth
@@ -62,28 +43,27 @@ app.post('/auth', function(request, response) {
 				request.session.loggedin = true;
 				request.session.username = username;
 				// Redirect to home page
-				response.redirect('/');
-			}
-			else {
-				alert(response.send('Incorrect Username and/or Password!'));
+				response.redirect('/home');
+			} else {
+				response.send('Incorrect Username and/or Password!');
 			}
 			response.end();
 		});
 	} else {
-		alert(response.send('Please enter Username and Password!'));
+		response.send('Please enter Username and Password!');
 		response.end();
 	}
 });
 
 // http://localhost:3000/home
-app.get('/index.html', function(request, response) {
+app.get('/home', function(request, response) {
 	// If the user is loggedin
 	if (request.session.loggedin) {
 		// Output username
-		alert(response.send('Welcome back, ' + request.session.username + '!'));
+		alert('Welcome back, ' + request.session.username + '!');
 	} else {
 		// Not logged in
-		alert(response.send('Please login to view this page!'));
+		response.send('Please login to view this page!');
 	}
 	response.end();
 });
