@@ -17,9 +17,11 @@
                 <li><a href="#index2">Django</a></li>
                 <li><a href="#team">A propos</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
                 <li><a href="#profile"> <%= name %> </a></li>
-                <li><a href="/login">Login/Register</a></li>
+                <li><a href="/login">Login</a></li>
+                <form action="/logout?_method=DELETE" method="post">
+                    <button class="normal" aria-current="page" type="submit">Logout</button>
+                </form>
             </ul>
         </div>
     </section>
@@ -33,7 +35,6 @@
                     <p>Django est un cadre de developpement web qui aide à construire et à maintenir des applications web de qualité. <br>Django aide à eliminer les taches repetitives rendant le processus de developpement une experience facile pour temps moindre.</p>
                     <div class="btn">
                         <a href="#team"><button class="normal">A propos de nous</button></a>
-                        <a href="#contact"><button class="blanc">Contacter nous</button></a>
                     </div>
                 </div>
             </div>
@@ -160,7 +161,8 @@
     <section id="card-block">
         <div class="imgBx">
             <div class="card-content">
-                <div class="card-img"></div>
+                <!-- Mettez les images ici -->
+                <div class="card-img"><img src="/close-up-attractive-carefree-young-woman-sitting-floor.jpg" alt=""></div>
                 <h2>Marie-Ange Kongolo</h2>
             </div>
             <div class="card-content">
@@ -227,24 +229,6 @@
                 <img src="/friendly-polite-good-looking-african-american-girl-glasses-with-curly-hair-striped-office-blouse-pointing-left-with-finger-gun-grinning-with-joy-giving-advice-where-go.jpg" alt="">
             </div>
         </div>
-    </section>
-
-    <section id="contact">
-        <div class="login box">
-			<h1>Contacter nous</h1>
-			<form action="/reg" method="post">
-				<label for="name">
-					<i class=" fas fa-user"></i>
-				</label>
-				<input type="text" name="name" placeholder="Mettez votre nom" id="name" required>
-				<label for="prenom">
-					<i class=" fas fa-user"></i>
-				</label>
-				<input type="email" name="email" placeholder="Mettez votre email" id="email">
-                <textarea name="Commentaire" id="commentaire" cols="30" rows="10" required></textarea>
-				<input type="submit" value="Soumettre">
-			</form>
-		</div>
     </section>
 
     <footer class="section-p1">

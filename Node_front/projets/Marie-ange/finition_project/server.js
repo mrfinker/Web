@@ -9,6 +9,7 @@ const passport = require("passport")
 const initializePassport = require("./passport-config")
 const flash = require("express-flash")
 const session = require("express-session")
+const methodOverride = require("method-override")
 const { name } = require("ejs")
 
 initializePassport(
@@ -30,6 +31,7 @@ app.use(session({
 }))
 app.use(passport.initialize())
 app.use(passport.session())
+app.use(methodOverride("_method"))
 
 
 app.post("/login", checkNotAuthenticated, passport.authenticate("local", {
@@ -70,7 +72,12 @@ app.get("/register", checkNotAuthenticated, (req, res) => {
 });
 
 
-
+app.delete("/logout", (req, res) => {
+    req.logout(req.user, err => {
+        if (err) return next(err)
+        res.redirect("/")
+    })
+})
 
 
 function checkAuthenticated(req, res, next){
