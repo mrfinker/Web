@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One page</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <div id="popuplogin">
+        <button type="button" name="" id="popexit" class="btn btn-primary btn-lg btn-block" onclick="toggle()">X</button>
+        <div class="login">
+			<h1>Login</h1>
+			<form action="/auth" method="post">
+				<label for="username">
+					<i class=" fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="Nom utilisateur" id="username" required>
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Mots de passe" id="password" required>
+                <p class="registration">Vous n'avez pas de compte <a href="#clicklogin" class="register" onclick="togglle()">cliquer ici</a> !</p>
+				<input type="submit" value="Login">
+			</form>
+		</div>
+    </div>
+    <div id="popupregister">
+        <button type="button" name="" id="popexit" class="btn btn-primary btn-lg btn-block" onclick="togglle()">X</button>
+        <div class="login">
+			<h1>Register</h1>
+			<form action="/reg" method="post">
+				<label for="name">
+					<i class=" fas fa-user"></i>
+				</label>
+				<input type="text" name="name" placeholder="Mettez votre nom" id="name" required>
+				<label for="prenom">
+					<i class=" fas fa-user"></i>
+				</label>
+				<input type="text" name="prenom" placeholder="Mettez votre prenom" id="prenom" required>
+				<label for="username">
+					<i class=" fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="Nom utilisateur" id="username" required>
+				<label for="email">
+					<i class=" fas fa-user"></i>
+				</label>
+				<input type="email" name="email" placeholder="Mettez votre mail" id="email" required>
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Mots de passe" id="password" required>
+				<label for="conf-password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="conf-password" placeholder="Confirmer votre mots de passe" id="conf-password" required>
+				<p class="registration">Vous avez deja un compte <a href="#clickreg" class="register" onclick="togglle()">cliquer ici</a> !</p>
+				<input type="submit" value="Enregistrement">
+			</form>
+		</div>
+    </div>
+
+<div class="container-all" id="blur">
+    <section id="top-nav">
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="#header">Accueil</a></li>
+                <li><a href="#index2">Django</a></li>
+                <li><a href="#team">A propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#logreg" onclick="toggle()">Login/Register</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="header">
+            <div class="container">
+                <div class="sub-cont cont2">
+                    <h3>Technologie.</h3>
+                    <h3 class="color">Python.</h3>
+                    <h3>Django.</h3>
+                    <p>Django est un cadre de developpement web qui aide à construire et à maintenir des applications web de qualité. <br>Django aide à eliminer les taches repetitives rendant le processus de developpement une experience facile pour temps moindre.</p>
+                    <div class="btn">
+                        <a href="#team"><button class="normal">A propos de nous</button></a>
+                        <a href="#contact"><button class="blanc">Contacter nous</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <div id="index2"></div>
+    <section id="main">
+        <div class="container-2">
+            <h2>Framework Python pour le web <span class="green">django</span></h2>
+            <p class="p-cont">Django est un cadre web Python de haut niveau qui encourage le developpement rapide, le design propre et pragmatique.</p>
+            <div class="section-t1 section-m1 box1">
+                <div class="histoire">
+                    <h2 class="color">Histoire de Django</h2>
+                    <p>Debut en 2003 par Adrian Holovaty et Simon Willison comme projet interne</p>
+                    <p>Sortie en 2005 et nommer Django, du Guitariste Jazz Django Reinhardt</p>
+                    <p>Django est maintenant un projet open source avec des contributeurs à travers le monde</p>
+                </div>
+
+                <div class="img-per">
+                    <div class="cont per">
+                        <div class="img-icon img-1"><img class="img-1" src="../img/180401.jpg" alt=""></div>
+                        <h3>Adrian Holovaty</h3>
+                    </div>
+                    <div class="cont per">
+                        <div class="img-icon img-1"><img class="img-1" src="../img/Simon_Willison_(2929211382)_(cropped).jpg" alt=""></div>
+                        <h3>Simon Willison</h3>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Avantages</h2>
+            <div class="sub-cont section-m1">
+                <div class="cart cont">
+                    <div class="img-icon"><img src="../img/speedometer.svg" alt=""></div>
+                    <h3>Developpement rapide</h3>
+                </div>
+                <div class="cont cart">
+                    <div class="img-icon"><img src="../img/security_shield.svg" alt=""></div>
+                    <h3>Securité</h3>
+                </div>
+                <div class="cont cart">
+                    <div class="img-icon"><img src="../img/safety_care.svg" alt=""></div>
+                    <h3>Versatile</h3>
+                </div>
+                <div class="cont cart">
+                    <div class="img-icon"><img src="../img/big_parcel.svg" alt=""></div>
+                    <h3>Open source</h3>
+                </div>
+                <div class="cont cart">
+                    <div class="img-icon"><img src="../img/electricity.svg" alt=""></div>
+                    <h3>Scalable</h3>
+                </div>
+                <div class="cont cart">
+                    <div class="img-icon"><img src="../img/source_code.svg" alt=""></div>
+                    <h3>Maintenance complete</h3>
+                </div>
+            </div>
+
+            <div class="section-m1 section-t1">
+                <div class="cont det">
+                    <h2>Ecrire une fois, Executer partout.</h2>
+                    <div class="cercle"></div>
+                </div>
+                <div class="cont det color-div">
+                    <h2>Philosophie</h2>
+                    <p>Django vise à faire chaque élément de sa pile independante des autres. <br><br>Moins de code donc à son tour un developpement rapide et flexible. <br><br> Don't Repeat yourself : Tout ne doit etre developpé que dans un seul endroit au lieu de le repeter encore et encore.<br><br>Django conserve stritectement un design propre tout au long de son propre code et facilite le suivi des meilleurs pratiques de developpement web</p>
+                </div>
+            </div>
+
+            <h2>Details</h2>
+            <div class="sub-cont section-m1">
+                <div class="cont per rec">
+                    <p>Django fournit un pont entre le modele de données et le moteur de base de données en prennant en charge un grand nombre de systemes de base de données</p>
+                </div>
+                <div class="cont per rec">
+                    <p>Django prend en charge les sites Web multilangues grace à son systeme d'internationalisation integré. Ainsi vous pouvez developper votre site web, qui prendrait en charge plusieurs langues</p>
+                </div>
+                <div class="cont per rec">
+                    <p>Django prend egalement en charge la base de données NoSQL</p>
+                </div>
+                <div class="cont per rec">
+                    <p>Django a un support integré pour Ajax, RSS, Caching et divers</p>
+                </div>
+                <div class="cont per rec">
+                    <p>Django fournit une belle interface utilisateur prete à l'emploi pour les activités admninistratives</p>
+                </div>
+                <div class="cont per rec">
+                    <p>Django est livré avec un serveur web leger pour faciliter le developpement et les tests des applications de bout en bout</p>
+                </div>
+            </div>
+
+            <div class="section-m1 section-t1 section-inv">
+                <div class="cont det">
+                    <h2>Don't <br>Repeat <br>yourself.</h2>
+                </div>
+                <div class="cont det color-div">
+                    <h2>Modele view controller and Template</h2>
+                    <p>Django prend en charge le modele MVC. <br><br>Nous parlons generalement du modele MVC sur les applications UI, comme le nom l'indique ce modele est basé sur trois composants : <br>Modele, Vue et le controleur. <br><br>Le modele MVT est legerement different de MVC, la principale difference entre les deux modeles est que Django lui-meme s'occupe de la partie controleur. <br><br><span>"Code logiciel qui controle les interactions entre le modele et la vue"</span><br><br>Le modele est un fichier HTML melangé avec le langage modele Django(DTL)</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="banniere">
+        <div class="container">
+            <div class="sub-cont cont2 ban-img">
+                <h2>Derriere chaque code, il y a une équipe</h2>
+                <a href="#contact"><button class="normal">Contacter nous</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="team">
+        <div class="team-sec section-m1 section-t1">
+            <h3>Notre incroyable equipe</h3>
+            <div class="card-team">
+                <p>Nous sommes une equipe des etudiants avec une approche fiable du travail, des passions et des objectifs tech interessant.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="card-block">
+        <div class="imgBx">
+            <div class="card-content">
+                <div class="card-img"></div>
+                <h2>Marie-Ange Kongolo</h2>
+            </div>
+            <div class="card-content">
+                <div class="card-img"></div>
+                <h2>Marie-Ange Kongolo</h2>
+            </div>
+            <div class="card-content">
+                <div class="card-img"></div>
+                <h2>Marie-Ange Kongolo</h2>
+            </div>
+            <div class="card-content">
+                <div class="card-img"></div>
+                <h2>Marie-Ange Kongolo</h2>
+            </div>
+            <div class="card-content">
+                <div class="card-img"></div>
+                <h2>Marie-Ange Kongolo</h2>
+            </div>
+        </div>
+
+        <div class="imgBx">
+            <div class="card-content">
+                <div class="card-img"></div>
+                <h2>Marie-Ange Kongolo</h2>
+            </div>
+            <div class="card-content">
+                <div class="card-img"></div>
+                <h2>Marie-Ange Kongolo</h2>
+            </div>
+            <div class="card-content">
+                <div class="card-img"></div>
+                <h2>Marie-Ange Kongolo</h2>
+            </div>
+            <div class="card-content">
+                <div class="card-img"></div>
+                <h2>Marie-Ange Kongolo</h2>
+            </div>
+            <div class="card-content">
+                <div class="card-img"></div>
+                <h2>Marie-Ange Kongolo</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Nos services et produits</h2>
+        <div class="card-services">
+            <div class="details box-center">
+                <h3>Conception</h3>
+                <ul>
+                    <li>Maquette produit</li>
+                    <li>Illustrations</li>
+                    <li>UI/UX</li>
+                    <li>Site web</li>
+                </ul>
+
+                <h3>Developpement</h3>
+                <ul>
+                    <li>Front-End</li>
+                    <li>Back-End</li>
+                </ul>
+            </div>
+            <div class="details img-box">
+                <img src="../img/friendly-polite-good-looking-african-american-girl-glasses-with-curly-hair-striped-office-blouse-pointing-left-with-finger-gun-grinning-with-joy-giving-advice-where-go.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="login box">
+			<h1>Contacter nous</h1>
+			<form action="/reg" method="post">
+				<label for="name">
+					<i class=" fas fa-user"></i>
+				</label>
+				<input type="text" name="name" placeholder="Mettez votre nom" id="name" required>
+				<label for="prenom">
+					<i class=" fas fa-user"></i>
+				</label>
+				<input type="email" name="email" placeholder="Mettez votre email" id="email">
+                <textarea name="Commentaire" id="commentaire" cols="30" rows="10" required></textarea>
+				<input type="submit" value="Soumettre">
+			</form>
+		</div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col1">
+            <a class="logo_1" href="#"><p class="logo-footer">Finker-Dev</p></a>
+            <h4>Contact</h4>
+            <p><strong>telephone: </strong> +243 979276522</p>
+        </div>
+
+        <div class="col1">
+            <h4>A propos</h4>
+            <a href="#team">A propos de nous</a>
+            <a href="#">Politique de confidentialité</a>
+            <a href="#">Termes & Conditions</a>
+            <a href="#contact">Nous contacter</a>
+        </div>
+
+        <div class="col1">
+            <h4>Mon compte</h4>
+            <a href="#">Aide</a>
+        </div>
+
+    </footer>
+</div>
+
+</body>
+<script src="../js/script.js"></script>
+</html>
