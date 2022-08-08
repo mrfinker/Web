@@ -44,15 +44,15 @@ body {
   flex-direction: row;
 }
 #navbar .container .row .element ul a {
+  text-align: center;
   text-decoration: none;
   color: black;
+  height: 3.5vh;
+  width: 10vh;
   list-style-type: none;
   font-size: 18px;
   margin: 5px 20px;
   font-weight: 500;
-}
-#navbar .container .row .element ul a:first-child {
-  border-bottom: solid 5px #c02ea0;
 }
 #navbar .container .row .element ul a:hover {
   border-bottom: solid 5px #c02ea0;
@@ -612,7 +612,7 @@ body {
   margin-top: 30px;
   border: solid 1px black;
   background-color: #f2dbf5;
-  color: gray;
+  color: rgb(48, 48, 48);
   padding-left: 25px;
   font-size: 22px;
   font-weight: 500;
