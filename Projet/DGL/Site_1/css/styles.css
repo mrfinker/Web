@@ -723,7 +723,7 @@ body {
 }
 
 #contact {
-  margin: -90px 0 90px 0;
+  margin: 0px 0 90px 0;
 }
 #contact .row-element {
   display: flex;
@@ -791,8 +791,8 @@ body {
   font-size: 16px;
   font-weight: 500;
   border: 1px solid gray;
-  height: 5vh;
-  width: 40vh;
+  height: 7vh;
+  width: 50vh;
   border-radius: 12px;
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
