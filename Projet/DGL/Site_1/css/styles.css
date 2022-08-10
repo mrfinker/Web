@@ -97,6 +97,9 @@ body {
   -ms-border-radius: 24px;
   -o-border-radius: 24px;
 }
+#main-center-img .container-all.about-all {
+  height: 40vh;
+}
 #main-center-img .container-all .cercle-noinline {
   display: flex;
   position: relative;
@@ -121,6 +124,14 @@ body {
   align-content: center;
   width: 65%;
   height: 90%;
+}
+#main-center-img .container-all .details-container.about-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 60%;
 }
 #main-center-img .container-all .details-container .text-details h2 {
   font-size: 38px;
@@ -709,6 +720,84 @@ body {
   letter-spacing: 1px;
   cursor: pointer;
   background-color: #c02ea0;
+}
+
+#contact {
+  margin: -90px 0 90px 0;
+}
+#contact .row-element {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+#contact .row-element form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+#contact .row-element form .cont-column {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+}
+#contact .row-element form .cont-column textarea {
+  margin: 0 20px 30px 20px;
+  padding: 15px 15px 15px 15px;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid gray;
+  height: 15vh;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+#contact .row-element form .cont-column button {
+  cursor: pointer;
+  background-color: #c02ea0;
+  color: white;
+  height: 7vh;
+  border: none;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+#contact .row-element form .cont-row {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+}
+#contact .row-element form .cont-row .cont-column {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+}
+#contact .row-element form .cont-row .cont-column input {
+  margin: 0 20px 30px 20px;
+  padding: 0 15px 0 15px;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid gray;
+  height: 5vh;
+  width: 40vh;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
 }
 
 @-webkit-keyframes image {
