@@ -6,12 +6,12 @@
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(95deg,#ffe8fa 50%,white 50%);
 }
 
 // connexion
 
 #connexion-main{
-    background: linear-gradient(95deg,#ffe8fa 50%,white 50%);
 
     .content-half{
             display: flex;
@@ -51,6 +51,11 @@ body{
                     font-size: 24px;
                     top: -30%;
                     left: 20%;
+
+                    a{
+                        color: rgb(29, 29, 158);
+                        text-decoration: none;
+                    }
                 }
 
                 .two-row-content{
@@ -210,6 +215,8 @@ body{
     }
 }
 
+// keyframes
+
 @keyframes image {
     0%{
         transform: rotate(360deg);
@@ -242,5 +249,265 @@ body{
         -moz-transform: scale(1,1);
         -ms-transform: scale(1,1);
         -o-transform: scale(1,1);
+    }
+}
+
+// mediaqueries
+
+@media only screen and (max-width: 2560px) {
+    #connexion-main{
+        .content-half{
+            .half-one{
+
+                &.part-1{
+                    .two-row-content{
+                        // border: solid 1px;
+                        position: relative;
+                        width: 30vh;
+                        height: 30vh;
+                        left: 70%;
+                        top: -5%;
+
+                        .details-img{
+                            .img-3{
+                                position: relative;
+                                top: -500px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1920px) {
+    #connexion-main{
+        .content-half{
+            .half-one{
+
+                &.part-1{
+                    .two-row-content{
+                        // border: solid 1px;
+                        position: relative;
+                        width: 30vh;
+                        height: 30vh;
+                        left: 70%;
+                        top: -5%;
+
+                        .details-img{
+                            .img-3{
+                                position: relative;
+                                top: -350px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    #connexion-main{
+        .content-half{
+            .half-one{
+
+                &.part-1{
+                    .two-row-content{
+                        // border: solid 1px;
+                        position: relative;
+                        width: 30vh;
+                        height: 30vh;
+                        left: 70%;
+                        top: -5%;
+
+                        .details-img{
+                            .img-3{
+                                position: relative;
+                                top: -320px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #connexion-main{
+        .content-half{
+            .half-one{
+
+                &.part-1{
+                    .two-row-content{
+                        visibility: hidden;
+                    }
+                }
+
+                &.part-2{
+
+                    form{
+                        input{
+                            width: 40vh;
+                        }
+
+                        button{
+                            width: 40vh;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #connexion-main{
+        .content-half{
+            .half-one{
+
+                &.part-1{
+                    .two-row-content{
+                        visibility: hidden;
+                    }
+
+                    p{
+                        font-size: 18px;
+                    }
+                }
+
+                &.part-2{
+
+                    form{
+                        input{
+                            width: 35vh;
+                        }
+
+                        button{
+                            width: 35vh;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #connexion-main{
+        .content-half{
+            .half-one{
+
+                &.part-1{
+                    .two-row-content{
+                        visibility: hidden;
+                    }
+
+                    img{
+                        visibility: hidden;
+                    }
+
+                    h3{
+                        // border: solid 1px;
+                        position: relative;
+                        top: -35%;
+                        left: 40%;
+                        width: 32vh;
+                    }
+
+                    p{
+                        position: relative;
+                        left: 39%;
+                        top: -41%;
+                        // border: solid 1px;
+                        width: 32vh;
+                        font-size: 16px;
+                    }
+
+
+                }
+
+                &.part-2{
+                    position: relative;
+                    left: -22%;
+                    top: 80px;
+
+                    img{
+                        visibility: hidden;
+                    }
+
+                    form{
+                        input{
+                            width: 30vh;
+                        }
+
+                        button{
+                            width: 30vh;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #connexion-main{
+        .content-half{
+            .half-one{
+
+                &.part-1{
+                    .two-row-content{
+                        visibility: hidden;
+                    }
+
+                    img{
+                        visibility: hidden;
+                    }
+
+                    h3{
+                        // border: solid 1px;
+                        position: relative;
+                        top: -35%;
+                        left: 40%;
+                        width: 32vh;
+                        font-size: 32px;
+                    }
+
+                    p{
+                        position: relative;
+                        left: 30%;
+                        top: -41%;
+                        // border: solid 1px;
+                        width: 28vh;
+                        font-size: 14px;
+                    }
+
+
+                }
+
+                &.part-2{
+                    position: relative;
+                    left: -25%;
+                    top: 80px;
+
+                    img{
+                        visibility: hidden;
+                    }
+
+                    form{
+                        input{
+                            width: 30vh;
+                        }
+
+                        button{
+                            width: 30vh;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
