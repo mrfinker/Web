@@ -32,6 +32,10 @@ body{
             width: 80%;
             height: 10vh;
 
+            &.profile{
+                border-bottom: purple 1px solid;
+            }
+
             a{
                 text-decoration: none;
 
@@ -874,6 +878,10 @@ body{
         justify-content: center;
         align-content: center;
 
+        &.profile{
+            margin: 100px 0 0 0;
+        }
+
         form{
             display: flex;
             flex-direction: column;
@@ -885,6 +893,91 @@ body{
                 flex-direction: column;
                 align-content: center;
                 justify-content: space-between;
+
+                &.appli{
+                    margin: 0 0 0 0;
+                }
+
+                &.part-2{
+                    margin: 0 0 20vh 0;
+                    .grid-one{
+                        margin: 0 20px 30px 20px;
+                        padding: 20px 25px 25px 35px;
+                        color: black;
+                        font-size: 16px;
+                        font-weight: 500;
+                        border: 1px solid gray;
+                        width: 90vh;
+                        border-radius: 12px;
+                        -webkit-border-radius: 12px;
+                        -moz-border-radius: 12px;
+                        -ms-border-radius: 12px;
+                        -o-border-radius: 12px;
+
+                        .info-row{
+                            // border: solid 1px;
+                            margin: 0 0 30px 0;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+
+                            h2{
+                                margin: 0 0 0 0;
+                                font-size: 26px;
+                            }
+                        }
+
+                        img{
+                            width: 3vh;
+                            cursor: pointer;
+                        }
+
+                        .child-2, .child-3{
+                            margin: 0 0 30px 0;
+                        }
+                        
+                        .first-p{
+                            margin: 0 0 30px 0;
+                            width: 50vh;
+                        }
+                        
+                        .second-p{
+                            margin: 0 0 30px 0;
+                            width: 70vh;
+                        }
+                        
+                        .third-p{
+                            margin: 0 0 5px 0;
+                        }
+
+                        .row-el{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin: 15px 0 15px 0;
+                            padding: 0 10px 0 10px;
+                            border: 1px solid gray;
+                            height: 6vh;
+                            width: 35vh;
+                            border-radius: 12px;
+                            -webkit-border-radius: 12px;
+                            -moz-border-radius: 12px;
+                            -ms-border-radius: 12px;
+                            -o-border-radius: 12px;
+                        }
+
+                        p{
+                            font-size: 18px;
+                            font-weight: 400;
+                        }
+
+                        a{
+                            font-size: 20px;
+                            color: #c02ea0;
+                            text-decoration: none;
+}
+                    }
+                }
 
                 textarea{
                     margin: 0 20px 30px 20px;
@@ -929,6 +1022,48 @@ body{
                     flex-direction: column;
                     align-content: center;
                     justify-content: space-between;
+
+                    &.part-1, &.post-profile{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-content: center;
+                        align-items: center;
+                        // margin-bottom: 80px;
+                    }
+
+                    &.post-profile{
+                        margin-bottom: 40px;
+
+                        .profile-user{
+                            position: relative;
+                            left: -150px;
+                        }
+
+                        h2{
+                            position: relative;
+                            top: -100px;
+                            left: 200px;
+                        }
+                    }
+
+                    .profile-user{
+                        background-color: red;
+                        width: 20vh;
+                        height: 20vh;
+                        border-radius: 50%;
+                        -webkit-border-radius: 50%;
+                        -moz-border-radius: 50%;
+                        -ms-border-radius: 50%;
+                        -o-border-radius: 50%;
+                    }
+
+                    h2{
+                        margin: 0 0 0 25px;
+                        font-size: 26px;
+                        font-weight: 500;
+                        width: 60vh;
+                    }
 
                     input{
                         margin: 0 20px 30px 20px;
