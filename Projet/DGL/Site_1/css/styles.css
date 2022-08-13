@@ -244,13 +244,13 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   align-content: center;
   width: 90%;
-  height: 60vh;
+  height: 400vh;
   background-color: #f2dbf5;
   border-radius: 16px;
   -webkit-border-radius: 16px;
@@ -340,13 +340,14 @@ body {
   font-weight: 300;
 }
 #container-grid .grid-content .content-all {
-  margin: 0 auto;
+  margin: 50px auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   align-content: center;
   width: 120vh;
+  flex-wrap: wrap;
 }
 #container-grid .grid-content .content-all a {
   text-decoration: none;
@@ -645,6 +646,9 @@ body {
   align-items: flex-start;
   align-content: center;
 }
+#footer .container-all .grid-one a {
+  text-decoration: none;
+}
 #footer .container-all .grid-one h2 {
   font-size: 38px;
   font-weight: 700;
@@ -874,12 +878,12 @@ body {
 }
 #contact .row-element form .cont-row .cont-column.post-profile .profile-user {
   position: relative;
-  left: -150px;
+  left: -180px;
 }
 #contact .row-element form .cont-row .cont-column.post-profile h2 {
   position: relative;
-  top: -100px;
-  left: 200px;
+  top: -110px;
+  left: 220px;
 }
 #contact .row-element form .cont-row .cont-column .profile-user {
   background-color: red;
