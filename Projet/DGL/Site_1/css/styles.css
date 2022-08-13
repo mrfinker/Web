@@ -245,18 +245,26 @@ body {
   flex-direction: column;
   margin: 0 auto;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   align-content: center;
   width: 90%;
-  height: 400vh;
+  height: 60vh;
   background-color: #f2dbf5;
   border-radius: 16px;
   -webkit-border-radius: 16px;
   -moz-border-radius: 16px;
   -ms-border-radius: 16px;
   -o-border-radius: 16px;
+}
+#container-grid .grid-content.service-cont {
+  height: 400vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+#container-grid .grid-content.service-cont .service {
+  margin: 50px auto;
+  flex-wrap: wrap;
 }
 #container-grid .grid-content.part-one {
   display: flex;
@@ -340,14 +348,13 @@ body {
   font-weight: 300;
 }
 #container-grid .grid-content .content-all {
-  margin: 50px auto;
+  margin: 0px auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   align-content: center;
   width: 120vh;
-  flex-wrap: wrap;
 }
 #container-grid .grid-content .content-all a {
   text-decoration: none;
@@ -915,6 +922,224 @@ body {
   -moz-border-radius: 12px;
   -ms-border-radius: 12px;
   -o-border-radius: 12px;
+}
+
+.engager-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 0 0;
+}
+.engager-cont input {
+  border: none;
+  height: 6vh;
+  width: 45vh;
+  font-size: 16px;
+  padding: 0 16px 0 16px;
+  opacity: 0.6;
+  color: black;
+  border-radius: 12px 0 0 12px;
+  -webkit-border-radius: 12px 0 0 12px;
+  -moz-border-radius: 12px 0 0 12px;
+  -ms-border-radius: 12px 0 0 12px;
+  -o-border-radius: 12px 0 0 12px;
+}
+.engager-cont select {
+  position: relative;
+  border: none;
+  border-left: 1px black solid;
+  height: 6vh;
+  font-size: 16px;
+  padding: 0 8px 0 8px;
+  opacity: 0.6;
+  cursor: pointer;
+  color: black;
+  border-radius: 0 12px 12px 0;
+  -webkit-border-radius: 0 12px 12px 0;
+  -moz-border-radius: 0 12px 12px 0;
+  -ms-border-radius: 0 12px 12px 0;
+  -o-border-radius: 0 12px 12px 0;
+}
+
+.container-engager {
+  margin: -60px 0 25px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-engager h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.container-engager h1 span {
+  color: #c02ea0;
+}
+.container-engager .cont-all-engager {
+  padding: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 140vh;
+}
+.container-engager .cont-all-engager .el-engager {
+  border: 1px solid rgb(209, 207, 207);
+  margin: 0 0 80px 0;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 15px 15px 15px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.container-engager .cont-all-engager .el-engager.el-job-det {
+  width: 100vh;
+  border: none;
+  box-shadow: none;
+}
+.container-engager .cont-all-engager .el-engager.el-job-det h1 {
+  font-size: 38px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+.container-engager .cont-all-engager .el-engager.el-job-det .salaire {
+  width: 40vh;
+}
+.container-engager .cont-all-engager .el-engager.el-job-det .temps {
+  margin: 15px 0 60px 0;
+}
+.container-engager .cont-all-engager .el-engager.el-job-det p {
+  width: 90vh;
+}
+.container-engager .cont-all-engager .el-engager.el-job-det h4 {
+  font-size: 38px;
+  font-weight: 600;
+  margin: 25px 0 20px 0;
+}
+.container-engager .cont-all-engager .el-engager.el-job-det button {
+  cursor: pointer;
+  margin: 40px 0 0 0;
+  border: none;
+  width: 60vh;
+  height: 5vh;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #c02ea0;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.container-engager .cont-all-engager .el-engager img {
+  width: 2.5vh;
+  height: 2.5vh;
+}
+.container-engager .cont-all-engager .el-engager .nouveau {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-engager .cont-all-engager .el-engager .nouveau h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  height: 3vh;
+  width: 8vh;
+  background-color: rgb(221, 47, 47);
+  color: white;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.container-engager .cont-all-engager .el-engager h1 {
+  font-size: 26px;
+  font-weight: 800;
+  margin: 10px 0 0 0;
+}
+.container-engager .cont-all-engager .el-engager h3 {
+  font-size: 26px;
+  font-weight: 400;
+  padding: 0 0 0 5px;
+  margin: 0 0 10px 0;
+}
+.container-engager .cont-all-engager .el-engager p {
+  font-size: 16px;
+  font-weight: 600;
+  width: 45vh;
+  margin-bottom: 20px;
+}
+.container-engager .cont-all-engager .el-engager .salaire {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  background-color: #f2dbf5;
+  height: 4vh;
+  border-radius: 12px;
+  padding: 0 0 0 25px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.container-engager .cont-all-engager .el-engager .salaire img {
+  margin: 0 15px 0 0;
+  width: 2vh;
+}
+.container-engager .cont-all-engager .el-engager .salaire h4 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.container-engager .cont-all-engager .el-engager .temps {
+  display: flex;
+  flex-direction: row;
+  color: gray;
+  margin: 20px 0 0 0;
+}
+.container-engager .cont-all-engager .el-engager .temps p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 0 0 10px;
+}
+
+.refresh-btn-engager {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  width: 30vh;
+  height: 5vh;
+  background-color: #c02ea0;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.refresh-btn-engager img {
+  width: 3vh;
+}
+.refresh-btn-engager h2 {
+  margin: 0 0 0 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  letter-spacing: 2px;
 }
 
 @-webkit-keyframes image {
