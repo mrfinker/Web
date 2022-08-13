@@ -297,19 +297,18 @@ body{
 
 #container-grid{
 
-
     .grid-content{
         margin-bottom: 30px;
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-        display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         align-content: center;
         width: 90%;
-        height: 60vh;
+        height: 400vh;
         background-color: #f2dbf5;
         border-radius: 16px;
         -webkit-border-radius: 16px;
@@ -420,13 +419,14 @@ body{
 
         .content-all{
             // border: solid 1px;
-            margin: 0 auto;
+            margin: 50px auto;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
             align-content: center;
             width: 120vh;
+            flex-wrap: wrap;
 
             a{
                 text-decoration: none;
@@ -772,6 +772,10 @@ body{
             align-items: flex-start;
             align-content: center;
 
+            a{
+                text-decoration: none;
+            }
+
             h2{
                 font-size: 38px;
                 font-weight: 700;
@@ -1037,13 +1041,13 @@ body{
 
                         .profile-user{
                             position: relative;
-                            left: -150px;
+                            left: -180px;
                         }
 
                         h2{
                             position: relative;
-                            top: -100px;
-                            left: 200px;
+                            top: -110px;
+                            left: 220px;
                         }
                     }
 
