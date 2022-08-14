@@ -9,57 +9,57 @@ body {
   background: linear-gradient(95deg, #ffe8fa 50%, white 50%);
 }
 
-#connexion-main .content-half {
+.connexion-main .content-half {
   display: flex;
   flex-direction: row;
 }
-#connexion-main .content-half .half-one {
+.connexion-main .content-half .half-one {
   display: flex;
   flex-direction: column;
   width: 50%;
   height: 100vh;
 }
-#connexion-main .content-half .half-one.part-1 {
+.connexion-main .content-half .half-one.part-1 {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   align-content: center;
 }
-#connexion-main .content-half .half-one.part-1 h2 {
+.connexion-main .content-half .half-one.part-1 h2 {
   position: relative;
   font-size: 36px;
   color: #c02ea0;
   top: 5%;
   left: 25%;
 }
-#connexion-main .content-half .half-one.part-1 h3 {
+.connexion-main .content-half .half-one.part-1 h3 {
   position: relative;
   font-size: 42px;
   font-weight: 700;
   top: -25%;
   left: 20%;
 }
-#connexion-main .content-half .half-one.part-1 p {
+.connexion-main .content-half .half-one.part-1 p {
   position: relative;
   font-size: 24px;
   top: -30%;
   left: 20%;
 }
-#connexion-main .content-half .half-one.part-1 p a {
+.connexion-main .content-half .half-one.part-1 p a {
   color: rgb(29, 29, 158);
   text-decoration: none;
 }
-#connexion-main .content-half .half-one.part-1 .two-row-content {
+.connexion-main .content-half .half-one.part-1 .two-row-content {
   position: relative;
   width: 30vh;
   height: 30vh;
   left: 70%;
   top: -1%;
 }
-#connexion-main .content-half .half-one.part-1 .two-row-content .details-img {
+.connexion-main .content-half .half-one.part-1 .two-row-content .details-img {
   position: relative;
 }
-#connexion-main .content-half .half-one.part-1 .two-row-content .details-img .img-2 {
+.connexion-main .content-half .half-one.part-1 .two-row-content .details-img .img-2 {
   position: relative;
   z-index: 6;
   top: -20%;
@@ -73,7 +73,7 @@ body {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
-#connexion-main .content-half .half-one.part-1 .two-row-content .details-img .img-3 {
+.connexion-main .content-half .half-one.part-1 .two-row-content .details-img .img-3 {
   position: relative;
   top: -360px;
   left: 80%;
@@ -88,7 +88,7 @@ body {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
-#connexion-main .content-half .half-one.part-1 .cercle-noinline {
+.connexion-main .content-half .half-one.part-1 .cercle-noinline {
   position: relative;
   top: -30%;
   left: 15%;
@@ -96,10 +96,10 @@ body {
   animation: zoom-in-out infinite 5s linear;
   -webkit-animation: zoom-in-out infinite 5s linear;
 }
-#connexion-main .content-half .half-one.part-1 .cercle-noinline img {
+.connexion-main .content-half .half-one.part-1 .cercle-noinline img {
   width: 60px;
 }
-#connexion-main .content-half .half-one.part-1 .cercle-min-inline {
+.connexion-main .content-half .half-one.part-1 .cercle-min-inline {
   position: relative;
   top: -10%;
   left: 25%;
@@ -108,34 +108,34 @@ body {
   animation: image infinite 3s linear;
   -webkit-animation: image infinite 3s linear;
 }
-#connexion-main .content-half .half-one.part-1 .cercle-min-inline img {
+.connexion-main .content-half .half-one.part-1 .cercle-min-inline img {
   width: 80px;
 }
-#connexion-main .content-half .half-one.part-2 {
+.connexion-main .content-half .half-one.part-2 {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
 }
-#connexion-main .content-half .half-one.part-2 .cercle-min-inline {
+.connexion-main .content-half .half-one.part-2 .cercle-min-inline {
   position: relative;
   top: -10%;
   left: 25%;
   animation: image infinite 3s linear;
   -webkit-animation: image infinite 3s linear;
 }
-#connexion-main .content-half .half-one.part-2 .cercle-min-inline img {
+.connexion-main .content-half .half-one.part-2 .cercle-min-inline img {
   width: 90px;
 }
-#connexion-main .content-half .half-one.part-2 .cercle-noinline {
+.connexion-main .content-half .half-one.part-2 .cercle-noinline {
   position: relative;
   top: 10%;
   left: -30%;
   animation: zoom-in-out infinite 5s linear;
   -webkit-animation: zoom-in-out infinite 5s linear;
 }
-#connexion-main .content-half .half-one.part-2 .cercle-noinline img {
+.connexion-main .content-half .half-one.part-2 .cercle-noinline img {
   width: 80px;
   transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
@@ -143,18 +143,18 @@ body {
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
 }
-#connexion-main .content-half .half-one.part-2 h2 {
+.connexion-main .content-half .half-one.part-2 h2 {
   font-size: 42px;
   color: #c02ea0;
   margin: 0 0 30px 0;
 }
-#connexion-main .content-half .half-one.part-2 form {
+.connexion-main .content-half .half-one.part-2 form {
   position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-#connexion-main .content-half .half-one.part-2 form input {
+.connexion-main .content-half .half-one.part-2 form input {
   height: 6vh;
   width: 50vh;
   border: solid 1px gray;
@@ -168,7 +168,7 @@ body {
   -ms-border-radius: 12px;
   -o-border-radius: 12px;
 }
-#connexion-main .content-half .half-one.part-2 form button {
+.connexion-main .content-half .half-one.part-2 form button {
   cursor: pointer;
   height: 6vh;
   width: 50vh;
@@ -250,191 +250,191 @@ body {
   }
 }
 @media only screen and (max-width: 2560px) {
-  #connexion-main .content-half .half-one.part-1 .two-row-content {
+  .connexion-main .content-half .half-one.part-1 .two-row-content {
     position: relative;
     width: 30vh;
     height: 30vh;
     left: 70%;
     top: -5%;
   }
-  #connexion-main .content-half .half-one.part-1 .two-row-content .details-img .img-3 {
+  .connexion-main .content-half .half-one.part-1 .two-row-content .details-img .img-3 {
     position: relative;
     top: -500px;
   }
 }
 @media only screen and (max-width: 1920px) {
-  #connexion-main .content-half .half-one.part-1 .two-row-content {
+  .connexion-main .content-half .half-one.part-1 .two-row-content {
     position: relative;
     width: 30vh;
     height: 30vh;
     left: 70%;
     top: -5%;
   }
-  #connexion-main .content-half .half-one.part-1 .two-row-content .details-img .img-3 {
+  .connexion-main .content-half .half-one.part-1 .two-row-content .details-img .img-3 {
     position: relative;
     top: -350px;
   }
 }
 @media only screen and (max-width: 1440px) {
-  #connexion-main .content-half .half-one.part-1 .two-row-content {
+  .connexion-main .content-half .half-one.part-1 .two-row-content {
     position: relative;
     width: 30vh;
     height: 30vh;
     left: 70%;
     top: -5%;
   }
-  #connexion-main .content-half .half-one.part-1 .two-row-content .details-img .img-3 {
+  .connexion-main .content-half .half-one.part-1 .two-row-content .details-img .img-3 {
     position: relative;
     top: -320px;
   }
 }
 @media only screen and (max-width: 1024px) {
-  #connexion-main .content-half .half-one.part-1 .two-row-content {
+  .connexion-main .content-half .half-one.part-1 .two-row-content {
     visibility: hidden;
   }
-  #connexion-main .content-half .half-one.part-2 form input {
+  .connexion-main .content-half .half-one.part-2 form input {
     width: 40vh;
   }
-  #connexion-main .content-half .half-one.part-2 form button {
+  .connexion-main .content-half .half-one.part-2 form button {
     width: 40vh;
   }
 }
 @media only screen and (max-width: 768px) {
-  #connexion-main .content-half .half-one.part-1 .two-row-content {
+  .connexion-main .content-half .half-one.part-1 .two-row-content {
     visibility: hidden;
   }
-  #connexion-main .content-half .half-one.part-1 p {
+  .connexion-main .content-half .half-one.part-1 p {
     font-size: 18px;
   }
-  #connexion-main .content-half .half-one.part-2 form input {
+  .connexion-main .content-half .half-one.part-2 form input {
     width: 35vh;
   }
-  #connexion-main .content-half .half-one.part-2 form button {
+  .connexion-main .content-half .half-one.part-2 form button {
     width: 35vh;
   }
 }
 @media only screen and (max-width: 425px) {
-  #connexion-main .content-half .half-one.part-1 .two-row-content {
+  .connexion-main .content-half .half-one.part-1 .two-row-content {
     visibility: hidden;
   }
-  #connexion-main .content-half .half-one.part-1 img {
+  .connexion-main .content-half .half-one.part-1 img {
     visibility: hidden;
   }
-  #connexion-main .content-half .half-one.part-1 h3 {
+  .connexion-main .content-half .half-one.part-1 h3 {
     position: relative;
     top: -35%;
     left: 40%;
     width: 32vh;
   }
-  #connexion-main .content-half .half-one.part-1 p {
+  .connexion-main .content-half .half-one.part-1 p {
     position: relative;
     left: 39%;
     top: -41%;
     width: 32vh;
     font-size: 16px;
   }
-  #connexion-main .content-half .half-one.part-2 {
+  .connexion-main .content-half .half-one.part-2 {
     position: relative;
     left: -22%;
     top: 80px;
   }
-  #connexion-main .content-half .half-one.part-2 img {
+  .connexion-main .content-half .half-one.part-2 img {
     visibility: hidden;
   }
-  #connexion-main .content-half .half-one.part-2 form input {
+  .connexion-main .content-half .half-one.part-2 form input {
     width: 30vh;
   }
-  #connexion-main .content-half .half-one.part-2 form button {
+  .connexion-main .content-half .half-one.part-2 form button {
     width: 30vh;
   }
 }
 @media only screen and (max-width: 320px) {
-  #connexion-main .content-half .half-one.part-1 .two-row-content {
+  .connexion-main .content-half .half-one.part-1 .two-row-content {
     visibility: hidden;
   }
-  #connexion-main .content-half .half-one.part-1 img {
+  .connexion-main .content-half .half-one.part-1 img {
     visibility: hidden;
   }
-  #connexion-main .content-half .half-one.part-1 h3 {
+  .connexion-main .content-half .half-one.part-1 h3 {
     position: relative;
     top: -35%;
     left: 40%;
     width: 32vh;
     font-size: 32px;
   }
-  #connexion-main .content-half .half-one.part-1 p {
+  .connexion-main .content-half .half-one.part-1 p {
     position: relative;
     left: 30%;
     top: -41%;
     width: 28vh;
     font-size: 14px;
   }
-  #connexion-main .content-half .half-one.part-2 {
+  .connexion-main .content-half .half-one.part-2 {
     position: relative;
     left: -25%;
     top: 80px;
   }
-  #connexion-main .content-half .half-one.part-2 img {
+  .connexion-main .content-half .half-one.part-2 img {
     visibility: hidden;
   }
-  #connexion-main .content-half .half-one.part-2 form input {
+  .connexion-main .content-half .half-one.part-2 form input {
     width: 30vh;
   }
-  #connexion-main .content-half .half-one.part-2 form button {
+  .connexion-main .content-half .half-one.part-2 form button {
     width: 30vh;
   }
 }
-#register-main .content-half {
+.register-main .content-half {
   display: flex;
   flex-direction: row;
 }
-#register-main .content-half .half-one {
+.register-main .content-half .half-one {
   display: flex;
   flex-direction: column;
   width: 50%;
   height: 100vh;
 }
-#register-main .content-half .half-one.part-1 {
+.register-main .content-half .half-one.part-1 {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   align-content: center;
 }
-#register-main .content-half .half-one.part-1 h2 {
+.register-main .content-half .half-one.part-1 h2 {
   position: relative;
   font-size: 36px;
   color: #c02ea0;
   top: 5%;
   left: 25%;
 }
-#register-main .content-half .half-one.part-1 h3 {
+.register-main .content-half .half-one.part-1 h3 {
   position: relative;
   font-size: 42px;
   font-weight: 700;
   top: -25%;
   left: 20%;
 }
-#register-main .content-half .half-one.part-1 p {
+.register-main .content-half .half-one.part-1 p {
   position: relative;
   font-size: 24px;
   top: -30%;
   left: 20%;
 }
-#register-main .content-half .half-one.part-1 p a {
+.register-main .content-half .half-one.part-1 p a {
   color: rgb(29, 29, 158);
   text-decoration: none;
 }
-#register-main .content-half .half-one.part-1 .two-row-content {
+.register-main .content-half .half-one.part-1 .two-row-content {
   position: relative;
   width: 30vh;
   height: 30vh;
   left: 70%;
   top: -1%;
 }
-#register-main .content-half .half-one.part-1 .two-row-content .details-img {
+.register-main .content-half .half-one.part-1 .two-row-content .details-img {
   position: relative;
 }
-#register-main .content-half .half-one.part-1 .two-row-content .details-img .img-2 {
+.register-main .content-half .half-one.part-1 .two-row-content .details-img .img-2 {
   position: relative;
   z-index: 6;
   top: -20%;
@@ -448,7 +448,7 @@ body {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
-#register-main .content-half .half-one.part-1 .two-row-content .details-img .img-3 {
+.register-main .content-half .half-one.part-1 .two-row-content .details-img .img-3 {
   position: relative;
   top: -360px;
   left: 80%;
@@ -463,7 +463,7 @@ body {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
-#register-main .content-half .half-one.part-1 .cercle-noinline {
+.register-main .content-half .half-one.part-1 .cercle-noinline {
   position: relative;
   top: -30%;
   left: 15%;
@@ -471,10 +471,10 @@ body {
   animation: zoom-in-out infinite 5s linear;
   -webkit-animation: zoom-in-out infinite 5s linear;
 }
-#register-main .content-half .half-one.part-1 .cercle-noinline img {
+.register-main .content-half .half-one.part-1 .cercle-noinline img {
   width: 60px;
 }
-#register-main .content-half .half-one.part-1 .cercle-min-inline {
+.register-main .content-half .half-one.part-1 .cercle-min-inline {
   position: relative;
   top: -10%;
   left: 25%;
@@ -483,34 +483,34 @@ body {
   animation: image infinite 3s linear;
   -webkit-animation: image infinite 3s linear;
 }
-#register-main .content-half .half-one.part-1 .cercle-min-inline img {
+.register-main .content-half .half-one.part-1 .cercle-min-inline img {
   width: 80px;
 }
-#register-main .content-half .half-one.part-2 {
+.register-main .content-half .half-one.part-2 {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
 }
-#register-main .content-half .half-one.part-2 .cercle-min-inline {
+.register-main .content-half .half-one.part-2 .cercle-min-inline {
   position: relative;
   top: -5%;
   left: 25%;
   animation: image infinite 3s linear;
   -webkit-animation: image infinite 3s linear;
 }
-#register-main .content-half .half-one.part-2 .cercle-min-inline img {
+.register-main .content-half .half-one.part-2 .cercle-min-inline img {
   width: 90px;
 }
-#register-main .content-half .half-one.part-2 .cercle-noinline {
+.register-main .content-half .half-one.part-2 .cercle-noinline {
   position: relative;
   top: 5%;
   left: -30%;
   animation: zoom-in-out infinite 5s linear;
   -webkit-animation: zoom-in-out infinite 5s linear;
 }
-#register-main .content-half .half-one.part-2 .cercle-noinline img {
+.register-main .content-half .half-one.part-2 .cercle-noinline img {
   width: 80px;
   transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
@@ -518,18 +518,18 @@ body {
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
 }
-#register-main .content-half .half-one.part-2 h2 {
+.register-main .content-half .half-one.part-2 h2 {
   font-size: 42px;
   color: #c02ea0;
   margin: 0 0 15px 0;
 }
-#register-main .content-half .half-one.part-2 form {
+.register-main .content-half .half-one.part-2 form {
   position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-#register-main .content-half .half-one.part-2 form input {
+.register-main .content-half .half-one.part-2 form input {
   height: 6vh;
   width: 50vh;
   border: solid 1px gray;
@@ -543,7 +543,7 @@ body {
   -ms-border-radius: 12px;
   -o-border-radius: 12px;
 }
-#register-main .content-half .half-one.part-2 form button {
+.register-main .content-half .half-one.part-2 form button {
   cursor: pointer;
   height: 6vh;
   width: 50vh;
@@ -560,201 +560,201 @@ body {
 }
 
 @media only screen and (max-width: 2560px) {
-  #register-main .content-half .half-one.part-1 .two-row-content {
+  .register-main .content-half .half-one.part-1 .two-row-content {
     position: relative;
     width: 30vh;
     height: 30vh;
     left: 70%;
     top: -5%;
   }
-  #register-main .content-half .half-one.part-1 .two-row-content .details-img .img-3 {
+  .register-main .content-half .half-one.part-1 .two-row-content .details-img .img-3 {
     position: relative;
     top: -600px;
   }
 }
 @media only screen and (max-width: 1920px) {
-  #register-main .content-half .half-one.part-1 .two-row-content {
+  .register-main .content-half .half-one.part-1 .two-row-content {
     position: relative;
     width: 30vh;
     height: 30vh;
     left: 70%;
     top: -5%;
   }
-  #register-main .content-half .half-one.part-1 .two-row-content .details-img .img-3 {
+  .register-main .content-half .half-one.part-1 .two-row-content .details-img .img-3 {
     position: relative;
     top: -350px;
   }
 }
 @media only screen and (max-width: 1440px) {
-  #register-main .content-half .half-one.part-1 p {
+  .register-main .content-half .half-one.part-1 p {
     font-size: 20px;
   }
-  #register-main .content-half .half-one.part-1 .two-row-content {
+  .register-main .content-half .half-one.part-1 .two-row-content {
     position: relative;
     width: 30vh;
     height: 30vh;
     left: 70%;
     top: -5%;
   }
-  #register-main .content-half .half-one.part-1 .two-row-content .details-img .img-2 {
+  .register-main .content-half .half-one.part-1 .two-row-content .details-img .img-2 {
     position: relative;
     top: -10px;
     left: 50px;
     width: 30vh;
     height: 30vh;
   }
-  #register-main .content-half .half-one.part-1 .two-row-content .details-img .img-3 {
+  .register-main .content-half .half-one.part-1 .two-row-content .details-img .img-3 {
     position: relative;
     top: -300px;
     left: 150px;
   }
-  #register-main .content-half .half-one.part-2 .cercle-min-inline {
+  .register-main .content-half .half-one.part-2 .cercle-min-inline {
     position: relative;
     top: 0%;
   }
-  #register-main .content-half .half-one.part-2 .cercle-min-inline img {
+  .register-main .content-half .half-one.part-2 .cercle-min-inline img {
     width: 50px;
   }
-  #register-main .content-half .half-one.part-2 .cercle-noinline {
+  .register-main .content-half .half-one.part-2 .cercle-noinline {
     position: relative;
     top: 5%;
   }
-  #register-main .content-half .half-one.part-2 .cercle-noinline img {
+  .register-main .content-half .half-one.part-2 .cercle-noinline img {
     width: 50px;
   }
 }
 @media only screen and (max-width: 1024px) {
-  #register-main .content-half .half-one.part-1 .two-row-content {
+  .register-main .content-half .half-one.part-1 .two-row-content {
     visibility: hidden;
   }
-  #register-main .content-half .half-one.part-2 form input {
+  .register-main .content-half .half-one.part-2 form input {
     width: 40vh;
   }
-  #register-main .content-half .half-one.part-2 form button {
+  .register-main .content-half .half-one.part-2 form button {
     width: 40vh;
   }
 }
 @media only screen and (max-width: 768px) {
-  #register-main .content-half .half-one.part-1 h3 {
+  .register-main .content-half .half-one.part-1 h3 {
     font-size: 28px;
   }
-  #register-main .content-half .half-one.part-1 .two-row-content {
+  .register-main .content-half .half-one.part-1 .two-row-content {
     visibility: hidden;
   }
-  #register-main .content-half .half-one.part-1 p {
+  .register-main .content-half .half-one.part-1 p {
     font-size: 15px;
   }
-  #register-main .content-half .half-one.part-2 form input {
+  .register-main .content-half .half-one.part-2 form input {
     width: 35vh;
   }
-  #register-main .content-half .half-one.part-2 form button {
+  .register-main .content-half .half-one.part-2 form button {
     width: 35vh;
   }
 }
 @media only screen and (max-width: 425px) {
-  #register-main .content-half .half-one.part-1 .two-row-content {
+  .register-main .content-half .half-one.part-1 .two-row-content {
     visibility: hidden;
   }
-  #register-main .content-half .half-one.part-1 img {
+  .register-main .content-half .half-one.part-1 img {
     visibility: hidden;
   }
-  #register-main .content-half .half-one.part-1 h3 {
+  .register-main .content-half .half-one.part-1 h3 {
     position: relative;
     top: -47%;
     left: 65%;
     width: 32vh;
   }
-  #register-main .content-half .half-one.part-1 p {
+  .register-main .content-half .half-one.part-1 p {
     position: relative;
     left: 30%;
     top: -53%;
     width: 40vh;
     font-size: 16px;
   }
-  #register-main .content-half .half-one.part-2 {
+  .register-main .content-half .half-one.part-2 {
     position: relative;
     left: -22%;
     top: 80px;
   }
-  #register-main .content-half .half-one.part-2 img {
+  .register-main .content-half .half-one.part-2 img {
     visibility: hidden;
   }
-  #register-main .content-half .half-one.part-2 form input {
+  .register-main .content-half .half-one.part-2 form input {
     width: 30vh;
   }
-  #register-main .content-half .half-one.part-2 form button {
+  .register-main .content-half .half-one.part-2 form button {
     width: 30vh;
   }
 }
 @media only screen and (max-width: 375px) {
-  #register-main .content-half .half-one.part-1 .two-row-content {
+  .register-main .content-half .half-one.part-1 .two-row-content {
     visibility: hidden;
   }
-  #register-main .content-half .half-one.part-1 img {
+  .register-main .content-half .half-one.part-1 img {
     visibility: hidden;
   }
-  #register-main .content-half .half-one.part-1 h3 {
+  .register-main .content-half .half-one.part-1 h3 {
     position: relative;
     top: -48%;
     left: 55%;
     width: 32vh;
     font-size: 28px;
   }
-  #register-main .content-half .half-one.part-1 p {
+  .register-main .content-half .half-one.part-1 p {
     position: relative;
     left: 25%;
     top: -53%;
     width: 45vh;
     font-size: 14px;
   }
-  #register-main .content-half .half-one.part-2 {
+  .register-main .content-half .half-one.part-2 {
     position: relative;
     left: -25%;
     top: 80px;
   }
-  #register-main .content-half .half-one.part-2 img {
+  .register-main .content-half .half-one.part-2 img {
     visibility: hidden;
   }
-  #register-main .content-half .half-one.part-2 form input {
+  .register-main .content-half .half-one.part-2 form input {
     width: 30vh;
   }
-  #register-main .content-half .half-one.part-2 form button {
+  .register-main .content-half .half-one.part-2 form button {
     width: 30vh;
   }
 }
 @media only screen and (max-width: 320px) {
-  #register-main .content-half .half-one.part-1 .two-row-content {
+  .register-main .content-half .half-one.part-1 .two-row-content {
     visibility: hidden;
   }
-  #register-main .content-half .half-one.part-1 img {
+  .register-main .content-half .half-one.part-1 img {
     visibility: hidden;
   }
-  #register-main .content-half .half-one.part-1 h3 {
+  .register-main .content-half .half-one.part-1 h3 {
     position: relative;
     top: -48%;
     left: 55%;
     width: 32vh;
     font-size: 28px;
   }
-  #register-main .content-half .half-one.part-1 p {
+  .register-main .content-half .half-one.part-1 p {
     position: relative;
     left: 25%;
     top: -53%;
     width: 45vh;
     font-size: 12px;
   }
-  #register-main .content-half .half-one.part-2 {
+  .register-main .content-half .half-one.part-2 {
     position: relative;
     left: -25%;
     top: 80px;
   }
-  #register-main .content-half .half-one.part-2 img {
+  .register-main .content-half .half-one.part-2 img {
     visibility: hidden;
   }
-  #register-main .content-half .half-one.part-2 form input {
+  .register-main .content-half .half-one.part-2 form input {
     width: 30vh;
   }
-  #register-main .content-half .half-one.part-2 form button {
+  .register-main .content-half .half-one.part-2 form button {
     width: 30vh;
   }
 }/*# sourceMappingURL=conn.css.map */
