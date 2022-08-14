@@ -11,7 +11,7 @@ body{
 
 // connexion
 
-#connexion-main{
+.connexion-main{
 
     .content-half{
             display: flex;
@@ -256,7 +256,7 @@ body{
 // mediaqueries
 
 @media only screen and (max-width: 2560px) {
-    #connexion-main{
+    .connexion-main{
         .content-half{
             .half-one{
 
@@ -283,7 +283,7 @@ body{
 }
 
 @media only screen and (max-width: 1920px) {
-    #connexion-main{
+    .connexion-main{
         .content-half{
             .half-one{
 
@@ -310,7 +310,7 @@ body{
 }
 
 @media only screen and (max-width: 1440px) {
-    #connexion-main{
+    .connexion-main{
         .content-half{
             .half-one{
 
@@ -337,7 +337,7 @@ body{
 }
 
 @media only screen and (max-width: 1024px) {
-    #connexion-main{
+    .connexion-main{
         .content-half{
             .half-one{
 
@@ -365,7 +365,7 @@ body{
 }
 
 @media only screen and (max-width: 768px) {
-    #connexion-main{
+    .connexion-main{
         .content-half{
             .half-one{
 
@@ -397,7 +397,7 @@ body{
 }
 
 @media only screen and (max-width: 425px) {
-    #connexion-main{
+    .connexion-main{
         .content-half{
             .half-one{
 
@@ -455,7 +455,7 @@ body{
 }
 
 @media only screen and (max-width: 320px) {
-    #connexion-main{
+    .connexion-main{
         .content-half{
             .half-one{
 
@@ -515,7 +515,7 @@ body{
 
 // Register
 
-#register-main{
+.register-main{
 
     .content-half{
             display: flex;
@@ -721,7 +721,7 @@ body{
 }
 
 @media only screen and (max-width: 2560px) {
-    #register-main{
+    .register-main{
         .content-half{
             .half-one{
 
@@ -748,7 +748,7 @@ body{
 }
 
 @media only screen and (max-width: 1920px) {
-    #register-main{
+    .register-main{
         .content-half{
             .half-one{
 
@@ -775,7 +775,7 @@ body{
 }
 
 @media only screen and (max-width: 1440px) {
-    #register-main{
+    .register-main{
         .content-half{
             .half-one{
 
@@ -838,7 +838,7 @@ body{
 }
 
 @media only screen and (max-width: 1024px) {
-    #register-main{
+    .register-main{
         .content-half{
             .half-one{
 
@@ -866,7 +866,7 @@ body{
 }
 
 @media only screen and (max-width: 768px) {
-    #register-main{
+    .register-main{
         .content-half{
             .half-one{
 
@@ -903,7 +903,7 @@ body{
 }
 
 @media only screen and (max-width: 425px) {
-    #register-main{
+    .register-main{
         .content-half{
             .half-one{
 
@@ -961,7 +961,7 @@ body{
 }
 
 @media only screen and (max-width: 375px) {
-    #register-main{
+    .register-main{
         .content-half{
             .half-one{
 
@@ -1020,7 +1020,7 @@ body{
 }
 
 @media only screen and (max-width: 320px) {
-    #register-main{
+    .register-main{
         .content-half{
             .half-one{
 
