@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(63, 63, 190);
+}
+
+section {
+  border: solid 1px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  border: none;
+  background-color: white;
+  width: 80vh;
+  border-radius: 16px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.1);
+}
+.container.none {
+  display: none;
+}
+.container .close {
+  margin: 20px 0 0 0;
+  width: 70vh;
+  display: flex;
+  justify-content: end;
+}
+.container .close img {
+  width: 30px;
+  cursor: pointer;
+}
+.container h2 {
+  font-size: 32px;
+  margin: 20px 0 20px 0;
+}
+.container p {
+  font-size: 18px;
+  width: 60vh;
+  margin: 0 0 20px 0;
+}
+.container button {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: rgb(63, 63, 190);
+  height: 5vh;
+  width: 20vh;
+  border-radius: 12px;
+  margin: 0 0 20px 0;
+}/*# sourceMappingURL=style.css.map */
