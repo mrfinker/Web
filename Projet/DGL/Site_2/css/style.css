@@ -42,6 +42,9 @@ body {
   display: flex;
   flex-direction: row;
 }
+.container.index .row .element ul #close {
+  display: none;
+}
 .container.index .row .element ul a {
   display: flex;
   justify-content: center;
@@ -370,7 +373,8 @@ body {
   font-weight: 400;
   margin-bottom: 30px;
 }
-.center-content.index .two-row-content.index-1 a, .center-content.index .two-row-content.index-1 button {
+.center-content.index .two-row-content.index-1 a,
+.center-content.index .two-row-content.index-1 button {
   height: 55px;
   width: 220px;
   border: none;
@@ -638,7 +642,7 @@ body > section.container-grid.index > div > div.service > a {
   text-decoration: none;
 }
 .footer .container-all .grid-one h2 {
-  font-size: 38px;
+  font-size: 32px;
   font-weight: 700;
 }
 .footer .container-all .grid-one h2 span {
@@ -1132,6 +1136,7 @@ body > section.main-center-img.appli > div {
   justify-content: space-between;
   width: 100%;
 }
+.row-element.appli form .cont-row.part-1,
 .row-element.appli form .cont-row .cont-column {
   display: flex;
   flex-direction: column;
@@ -1139,16 +1144,19 @@ body > section.main-center-img.appli > div {
   justify-content: space-between;
   width: 100%;
 }
-.row-element.appli form .cont-row .cont-column.part-1, .row-element.appli form .cont-row .cont-column.post-profile {
+.row-element.appli form .cont-row.part-1.post-profile,
+.row-element.appli form .cont-row .cont-column.post-profile {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: center;
   align-items: center;
 }
+.row-element.appli form .cont-row.part-1.post-profile,
 .row-element.appli form .cont-row .cont-column.post-profile {
   margin-bottom: 40px;
 }
+.row-element.appli form .cont-row.part-1 .profile-user,
 .row-element.appli form .cont-row .cont-column .profile-user {
   background-color: red;
   width: 184px;
@@ -1159,11 +1167,13 @@ body > section.main-center-img.appli > div {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
+.row-element.appli form .cont-row.part-1 h2,
 .row-element.appli form .cont-row .cont-column h2 {
   margin: 0 0 0 25px;
   font-size: 26px;
   font-weight: 500;
 }
+.row-element.appli form .cont-row.part-1 input,
 .row-element.appli form .cont-row .cont-column input {
   margin: 0 20px 30px 20px;
   padding: 0 15px 0 15px;
@@ -1360,6 +1370,44 @@ body > section:nth-child(5) > div > div.two-row-content.index-1.part-1 > p {
   }
   .container.index .row .menu {
     display: flex;
+    cursor: pointer;
+  }
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: #e3e6f3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+    transition: 0.3s;
+    z-index: 999;
+  }
+  #navbar #close {
+    display: block;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  #navbar .unorder-list,
+#navbar .element {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #navbar .unorder-list a,
+#navbar .element a {
+    justify-content: flex-start;
+  }
+  #navbar.active {
+    right: 0px;
+  }
+  #navbar a {
+    margin-bottom: 25px;
   }
   body > section:nth-child(3) > div > div.two-row-content.index-1.part-2.about-cont-2,
 body > section.main-center-img.index > div > div.details-container > div.details-img {
@@ -1423,7 +1471,8 @@ body > section:nth-child(5) > div > div.two-row-content.index-1.part-1 > p {
   }
   body > section.middle-img-center.index.reverse > div > div.two-row-content.index-1.reverse.part-1.col-1 > a > button,
 body > section.middle-img-center.index.reverse > div > div.two-row-content.index-1.reverse.part-1.col-1 > a,
-.center-content.index .two-row-content.index-1 a, .center-content.index .two-row-content.index-1 button {
+.center-content.index .two-row-content.index-1 a,
+.center-content.index .two-row-content.index-1 button {
     height: 45px;
     width: 200px;
   }
@@ -1472,6 +1521,7 @@ body > section.middle-img-center.index.reverse > div > div.two-row-content.index
   }
   .container.index .row .menu {
     display: flex;
+    cursor: pointer;
   }
   body > section.main-center-img.index > div > div.details-container > div.details-img {
     display: none;
@@ -1510,7 +1560,7 @@ body > section.main-center-img.index > div > div.cercle-min-inline > img {
     left: -3%;
   }
   body > section.main-center-img.index {
-    margin-bottom: 80px;
+    margin-bottom: 0;
   }
   .grid-content.perso .content-all,
 .grid-content.index .content-all {
@@ -1538,7 +1588,8 @@ body > section:nth-child(5) > div > div.two-row-content.index-1.part-1 > p {
   }
   body > section.middle-img-center.index.reverse > div > div.two-row-content.index-1.reverse.part-1.col-1 > a > button,
 body > section.middle-img-center.index.reverse > div > div.two-row-content.index-1.reverse.part-1.col-1 > a,
-.center-content.index .two-row-content.index-1 a, .center-content.index .two-row-content.index-1 button {
+.center-content.index .two-row-content.index-1 a,
+.center-content.index .two-row-content.index-1 button {
     height: 45px;
     width: 200px;
   }
@@ -1546,7 +1597,7 @@ body > section.middle-img-center.index.reverse > div > div.two-row-content.index
     height: 370px;
   }
   .middle-img-center.index {
-    margin: 100px 0 100px 0;
+    margin: 20px 0 20px 0;
   }
   body > section.middle-img-center.index.reverse {
     display: none;
@@ -1575,7 +1626,7 @@ body > section.middle-img-center.index.reverse > div > div.two-row-content.index
     text-align: start;
   }
   .center-content.index.reverse {
-    height: 455px;
+    height: 460px;
   }
   .container-text.index .div-text h2 {
     font-size: 26px;
@@ -1668,5 +1719,56 @@ body > section.container-engager.job > div > div > h4:nth-child(7) {
   .row-element.appli form .cont-column.part-2 .grid-one .info-row h2,
 body > section.contact.appli > div > form > div.cont-column.part-2 > div:nth-child(1) > h2 {
     font-size: 18px;
+  }
+  .container-grid.index {
+    margin-top: 40px;
+  }
+  .container-all.index.about-all {
+    height: 180px;
+  }
+  .footer {
+    margin: 50px 0;
+  }
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 200px;
+    background-color: #e3e6f3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+    transition: 0.3s;
+    z-index: 999;
+  }
+  #navbar #close {
+    display: block;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  #navbar .unorder-list,
+#navbar .element {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #navbar .unorder-list button,
+#navbar .element button {
+    margin-left: 0;
+    width: 160px;
+  }
+  #navbar .unorder-list a,
+#navbar .element a {
+    justify-content: flex-start;
+  }
+  #navbar.active {
+    right: 0px;
+  }
+  #navbar a {
+    margin-bottom: 25px;
   }
 }/*# sourceMappingURL=style.css.map */
