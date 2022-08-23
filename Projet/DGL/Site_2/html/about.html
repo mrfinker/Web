@@ -9,24 +9,26 @@
 </head>
 <body>
 
-    <section class="navbar">
+    <section class="navbarer">
         <div class="container index centre">
             <div class="row center">
                 <div class="logo">
                     <a href="../html/index.html"><h2>Logo</h2></a>
                 </div>
 
-                <div class="element">
-                    <ul class="unorder-list">
-                        <a href="../html/index.html"><li class="el-list">Accueil</li></a>
-                        <a href="../html/service.html"><li class="el-list">Services</li></a>
-                        <a href="../html/about.html"><li class="el-list">A propos</li></a>
-                        <a href="../html/contact.html"><li class="el-list">Contact</li></a>
-                    </ul>
-
-                    <button class="btn btn-primary">Connexion</button>
+                <div id="navbar" class="active">
+                    <div class="element">
+                        <ul class="unorder-list">
+                            <img id="close" src="../img/icons8_close_window.svg" width="30px" alt="">
+                            <a href="../html/index.html"><li class="el-list">Accueil</li></a>
+                            <a href="../html/service.html"><li class="el-list">Services</li></a>
+                            <a href="../html/about.html"><li class="el-list">A propos</li></a>
+                            <a href="../html/contact.html"><li class="el-list">Contact</li></a>
+                        </ul>
+                        <button class="btn btn-primary">Connexion</button>
+                    </div>
                 </div>
-                <img src="../img/icons8_menu.svg" width="40px" alt="" class="menu">
+                <img id="bar" src="../img/icons8_menu.svg" width="40px" alt="" class="menu">
             </div>
         </div>
     </section>
@@ -151,4 +153,5 @@
 
 
 </body>
+<script src="../js/script.js"></script>
 </html>
