@@ -101,8 +101,8 @@ body {
 }
 
 .main-center-img.index {
-    margin-top: 30px;
-    margin-bottom: 180px;
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 .container-all.index {
@@ -1735,6 +1735,32 @@ body>section.main-center-img.appli>div {
 }
 
 @media screen and (min-width: 320px) and (max-width: 667px) {
+
+    .row-element.appli.profile{
+        margin: 60px 0 0 0;
+    }
+
+    .row-element.appli form .cont-column.part-2 .grid-one{
+        margin: 0 0 20px 0;
+        padding: 15px;
+    }
+
+    .row-element.appli form .cont-column.part-2 .grid-one img{
+        width: 18px;
+    }
+
+    .container-engager .cont-all-engager .el-engager{
+        margin: 0 0 40px 0;
+    }
+
+    body > section.container-engager.engage > div{
+        padding: 120px 20px 0 20px;
+    }
+
+    .row-element.appli{
+        margin: 60px 0 0 0;
+    }
+
     .container.index .row .element {
         display: none;
     }
@@ -1811,11 +1837,16 @@ body>section.main-center-img.appli>div {
 
     .center-content.index .two-row-content.index-1 {
         width: 75%;
+        height: 30vh;
+    }
+
+    .container-text.index.deuxieme{
+        margin-bottom: 60px;
     }
 
     body>section.middle-img-center.index.reverse>div>div.two-row-content.index-1.reverse.part-1.col-1>h2,
     body>section:nth-child(5)>div>div.two-row-content.index-1.part-1>h2 {
-        font-size: 22px;
+        font-size: 18px;
     }
 
     body>section.middle-img-center.index.reverse>div>div.two-row-content.index-1.reverse.part-1.col-1>p,
@@ -1832,11 +1863,11 @@ body>section.main-center-img.appli>div {
     }
 
     .center-content.index {
-        height: 370px;
+        height: 300px;
     }
 
     .middle-img-center.index {
-        margin: 20px 0 20px 0;
+        margin: 0;
     }
 
     body>section.middle-img-center.index.reverse {
@@ -1877,8 +1908,37 @@ body>section.main-center-img.appli>div {
         height: 460px;
     }
 
+    .grid-content.index .content-all .grid .icone-center,
+    .grid-content.perso .content-all .grid .icone-center{
+        width: 90px;
+        height: 90px;
+    }
+
+    .grid-content.index .content-all .grid .icone-center img,
+    .grid-content.perso .content-all .grid .icone-center img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .container-engager{
+        margin: 0;
+    }
+
+    .footer .container-all .grid-one h2{
+        font-size: 28px;
+    }
+
+    .footer .container-all .grid-one h2.child-1, .footer .container-all .grid-one h2.child-2, .footer .container-all .grid-one h2.child-3{
+        margin: 0 0 20px 0;
+    }
+
+    .grid-content.perso .content-all .grid p{
+        font-size: 14px;
+    }
+
     .container-text.index .div-text h2 {
-        font-size: 26px;
+        font-size: 20px;
+        margin: 40px 0 0 0;
     }
 
     .footer .container-all .contenu-all {
@@ -1929,7 +1989,7 @@ body>section.main-center-img.appli>div {
     }
 
     body>section.contact.appli>div>form>div.cont-column.part-2 {
-        margin: 0 0 60px 0;
+        margin: 0 0 0 0;
     }
 
     body>section.main-center-img.index.engager>div>div.details-container.about-col>div>h2 {
@@ -1989,16 +2049,37 @@ body>section.main-center-img.appli>div {
     }
 
     body>section.contact.appli>div>form>div.cont-column.part-2>div:nth-child(1)>a>div>h3 {
-        font-size: 12px;
+        font-size: 11.6px;
     }
 
     .row-element.appli form .cont-column.part-2 .grid-one .info-row h2,
     body>section.contact.appli>div>form>div.cont-column.part-2>div:nth-child(1)>h2 {
-        font-size: 18px;
+        font-size: 16px;
+    }
+
+    .row-element.appli form .cont-column.part-2 .grid-one p{
+        font-size: 14px;
+    }
+
+    .row-element.appli form .cont-column.part-2 .grid-one .second-p{
+        margin: 0 0 10px 0;
+    }
+
+    .row-element.appli form .cont-column.part-2 .grid-one .first-p{
+        margin: 0 0 10px 0;
+    }
+
+    .row-element.appli form .cont-column.part-2 .grid-one .info-row{
+        margin: 0 0 10px 0;
+    }
+
+    .refresh-btn-engager{
+        margin: 40px auto;
     }
 
     .container-grid.index{
         margin-top: 40px;
+        margin-bottom: 0;
     }
 
     .container-all.index.about-all{
