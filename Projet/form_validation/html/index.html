@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_val</title>
+    <script defer src="../js/script.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <form action="" id="form">
+            <div class="title">Commençons</div>
+
+            <!-- Nom d'utilisateur -->
+            <div>
+                <label for="username">Nom utilisateur</label>
+                <img src="../img/icons8_user.svg" width="20px" alt="">
+
+                <input type="text" name="username" id="username" placeholder="Caleb Kiangebeni">
+
+                <img src="../img/icons8_error.svg" class="failureIcon" width="20px" alt="">
+                <img src="../img/icons8_ok.svg" class="successIcon" width="20px" alt="">
+
+                <div class="error"></div>
+            </div>
+
+            <!-- Email -->
+            <div>
+                <label for="email">email</label>
+                <img src="../img/icons8_paper_plane.svg" width="20px" alt="">
+
+                <input type="email" name="email" id="email" placeholder="CalebKiangebeni@gmail.com">
+
+                <img src="../img/icons8_error.svg" class="failureIcon" width="20px" alt="">
+                <img src="../img/icons8_ok.svg" class="successIcon" width="20px" alt="">
+
+                <div class="error"></div>
+            </div>
+
+            <!-- Mot de passe -->
+            <div>
+                <label for="password">Mot de passe</label>
+                <img src="../img/icons8_password.svg" width="20px" alt="">
+
+                <input type="password" name="password" id="password" placeholder="Mettez votre mot de passe">
+
+                <img src="../img/icons8_error.svg" class="failureIcon" width="20px" alt="">
+                <img src="../img/icons8_ok.svg" class="successIcon" width="20px" alt="">
+
+                <div class="error"></div>
+            </div>
+
+            <!-- Boutton d'envoie -->
+            <button id="btn" type="submit">Envoyer</button>
+        </form>
+    </div>
+</body>
+</html>
