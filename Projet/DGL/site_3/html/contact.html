@@ -5,20 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="shortcut icon" href="../img/IMG-20220909-WA0000.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
     <!-- Navbar -->
-    <section class="container-fluid navbar index contact">
+    <section class="container-fluid navbar index contact about event">
         <div class="container first-div">
-            <a class="logo" href="../html/index.html">Logo</a>
+            <a class="logo" href="../html/index.html">
+                <img src="../img/IMG-20220909-WA0002.jpg" width="70px" alt="">
+            </a>
+            <label for="menu-burger" class="menu-btn">
+                <img class="menu" src="../img/icons8_menu.svg" width="30px" alt="">
+            </label>
+            <input type="checkbox" id="menu-burger">
             <ul class="container unorder">
                 <a class="#" href="../html/index.html"><li class="list">Accueil</li></a>
-                <a class="#" href="#"><li class="list">Details</li></a>
-                <a class="#" href="#"><li class="list">Events</li></a>
+                <a class="#" href="../html/event.html"><li class="list">Events</li></a>
                 <a class="#" href="../html/contact.html"><li class="list">Contact</li></a>
                 <a class="#" href="../html/apropo.html"><li class="list">A propos</li></a>
+                <button type="button" class="btn btn-primary">Faire un don</button>
             </ul>
         </div>
     </section>
@@ -73,7 +80,10 @@
     <!-- footer -->
     <section class="container-fluid footer index">
         <div class="container first-div">
-            <a class="logo" href="#">Logo</a>
+            <div class="logo-text">
+                <a class="logo" href="#">Logo</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error reiciendis hic fugiat placeat molestiae vel obcaecati</p>
+            </div>
             <div class="geo">
                 <h3>Kinshasa</h3>
                 <p>Kinshasa 5</p>
@@ -84,13 +94,27 @@
                 <p>Fax <span>+243123456789</span></p>
                 <p>Email <span>giftbambi@gmail.com</span></p>
             </div>
-            <div class="coord">
-                <h3>Telephone <span>+243123456789</span></h3>
-                <p>Fax <span>+243123456789</span></p>
-                <p>Email <span>giftbambi@gmail.com</span></p>
-            </div>
+            <section id="newsletter" class="section-p1 section-m1 coord">
+                <div class="newstext">
+                    <div class="form">
+                        <h4>S'inscrire pour le Newsletters</h4>
+                        <input type="text" placeholder="Votre adresse mail">
+                        <button class="normal">S'inscrire</button>
+                    </div>
+                </div>
+            </section>
         </div>
     </section>
 </body>
 <script src="../js/jquery-3.6.1.min.js"></script>
+
+<!-- active nvbar -->
+<script>
+    const activePage = window.location.pathname;
+    const navLinks = document.querySelectorAll("ul a").forEach(link => {
+        if(link.href.includes(`${activePage}`)){
+            link.classList.add("active");
+        }
+    })
+</script>
 </html>

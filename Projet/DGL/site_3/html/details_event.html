@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
+    <title>details</title>
     <link rel="shortcut icon" href="../img/IMG-20220909-WA0000.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
+
 </head>
 <body>
-
-    <!-- Navbar -->
-    <section class="container-fluid navbar index contact about">
+    <!-- navbar -->
+    <section class="container-fluid navbar index contact about event">
         <div class="container first-div">
             <a class="logo" href="../html/index.html">
                 <img src="../img/IMG-20220909-WA0002.jpg" width="70px" alt="">
@@ -42,103 +42,123 @@
         </div>
     </section>
 
-    <!-- card details -->
-    <section class="container-fluid card-details index">
-        <div class="container first-div">
+    <!-- event container -->
+    <section class="container-event">
+        <div class="cont-all-event">
+            <div class="el-details el-event-det">
 
-                <article class="card">
-                    <header class="card__thumb">
-                        <a href="#">
-                            <img src="http://picsum.photos/370/235" alt="">
-                        </a>
-                    </header>
-                    <div class="card__body">
-                        <div class="card__category"><a href="#">Photos</a></div>
-                        <div class="card__title"><a href="#">Le bedo n'est pas bon pour la santé</a></div>
-                        <div class="card__subtitle">Le conseil du jour</div>
-                        <p class="card__description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur iure culpa odio, dolore illo accusantium est eligendi fugit facilis hic iusto modi dolorum voluptates delectus laudantium, ex optio omnis perferendis.
-                            Modi accusamus libero aperiam aliquid voluptatibus distinctio vero praesentium ab!
-                            <br>
-                            <a href="../html/details_event.html">Lire la suite --></a>
-                        </p>
+                <div class="multimedia">
+                    <!-- mettre l'image ou la video -->
+                </div>
+
+                <h1>Nom event</h1>
+                <h3>Digital Life</h3>
+                <div class="details-event">
+                    <h4>Details event : Details event</h4>
+                </div>
+                <div class="temps">
+                    <img src="../img/icons8_time_machine.svg" alt="">
+                    <p>il y a 2 jours</p>
+                </div>
+    
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat hic voluptate, distinctio laborum nostrum temporibus numquam sequi illo nam expedita minima recusandae aspernatur aperiam quam enim eum est sunt quidem!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat hic voluptate, distinctio laborum nostrum temporibus numquam sequi illo nam expedita minima recusandae aspernatur aperiam quam enim eum est sunt quidem!</p>
+    
+                <h4>Description de l'evenement</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat hic voluptate, distinctio laborum nostrum temporibus numquam sequi illo nam expedita minima recusandae aspernatur aperiam quam enim eum est sunt quidem!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat hic voluptate, distinctio laborum nostrum temporibus numquam sequi illo nam expedita minima recusandae aspernatur aperiam quam enim eum est sunt quidem!</p>
+
+                <h4>Responsables</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat hic voluptate, distinctio laborum nostrum temporibus numquam sequi illo nam expedita minima recusandae aspernatur aperiam quam enim eum est sunt quidem!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat hic voluptate, distinctio laborum nostrum temporibus numquam sequi illo nam expedita minima recusandae aspernatur aperiam quam enim eum est sunt quidem!</p>
+
+                <h4>Pré-requis</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat hic voluptate, distinctio laborum nostrum temporibus numquam sequi illo nam expedita minima recusandae aspernatur aperiam quam enim eum est sunt quidem!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat hic voluptate, distinctio laborum nostrum temporibus numquam sequi illo nam expedita minima recusandae aspernatur aperiam quam enim eum est sunt quidem!</p>
+
+                <input type="checkbox" id="clicker">
+                <label for="clicker">
+                    <div class="btn btn-primary">Participer</div>
+                </label>
+
+                <div class="pop-container-noir">
+                    <div class="pop-formulaire">
+                        <label for="clicker" class="close-btn">
+                            <div id="close" class="closer fermer">X</div>
+                        </label>
+
+                        <form action="#" method="post">
+                            <h2>Formulaire</h2>
+                            <label for="nom">Nom</label>
+                            <input type="text" name="nom" id="nom">
+
+                            <label for="post-nom">Post-nom</label>
+                            <input type="text" name="post-nom" id="post-nom">
+
+                            <label for="prenom">Prenom</label>
+                            <input type="text" name="prenom" id="prenom">
+
+                            <label for="sexe">Sexe</label>
+                            <input type="text" name="sexe" id="sexe">
+
+                            <label for="numero">Numero</label>
+                            <input type="number" name="numero" id="numero">
+
+                            <label for="adresse">Adresse</label>
+                            <input type="text" name="adresse" id="addresse">
+
+                            <label for="eglise">Eglise</label>
+                            <input type="text" name="eglise" id="eglise">
+
+                            <button type="button" class="btn btn-primary">Envoyer</button>
+                        </form>
                     </div>
-                </article>
+                </div>
 
-                <article class="card">
-                    <header class="card__thumb">
-                        <a href="#">
-                            <img src="http://picsum.photos/370/235" alt="">
-                        </a>
-                    </header>
-                    <div class="card__body">
-                        <div class="card__category"><a href="#">Photos</a></div>
-                        <div class="card__title"><a href="#">Le bedo n'est pas bon pour la santé</a></div>
-                        <div class="card__subtitle">Le conseil du jour</div>
-                        <p class="card__description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur iure culpa odio, dolore illo accusantium est eligendi fugit facilis hic iusto modi dolorum voluptates delectus laudantium, ex optio omnis perferendis.
-                            Modi accusamus libero aperiam aliquid voluptatibus distinctio vero praesentium ab!
-                            <br>
-                            <a href="../html/details_event.html">Lire la suite --></a>
-                        </p>
-                    </div>
-                </article>
-
-                <article class="card">
-                    <header class="card__thumb">
-                        <a href="#">
-                            <img src="http://picsum.photos/370/235" alt="">
-                        </a>
-                    </header>
-                    <div class="card__body">
-                        <div class="card__category"><a href="#">Photos</a></div>
-                        <div class="card__title"><a href="#">Le bedo n'est pas bon pour la santé</a></div>
-                        <div class="card__subtitle">Le conseil du jour</div>
-                        <p class="card__description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur iure culpa odio, dolore illo accusantium est eligendi fugit facilis hic iusto modi dolorum voluptates delectus laudantium, ex optio omnis perferendis.
-                            Modi accusamus libero aperiam aliquid voluptatibus distinctio vero praesentium ab!
-                            <br>
-                            <a href="../html/details_event.html">Lire la suite --></a>
-                        </p>
-                    </div>
-
-                </article>
-
-        </div>
-    </section>
-
-    <!-- bouton plus nos services -->
-    <section class="container-fluid section-btn index">
-        <button type="button" class="btn slider-btn">voir tout nos evenements</button>
-    </section>
-
-    <!-- Notre equipe -->
-    <section class="container-fluid img-team index">
-        <div class="container first-div">
-            <div class="first-child-div">
-                <div class="img-div"></div>
-                <div class="img-div"></div>
-                <div class="img-div"></div>
             </div>
-            <div class="second-child-div">
-                <h2>Notre Equipe</h2>
-                <br>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum praesentium quod exercitationem perferendis atque optio? Iusto, veniam dolores. Nulla quis, suscipit quam libero nostrum temporibus ducimus cupiditate consequatur est. Nesciunt!</p>
-                <br>
-                <button type="button" class="btn team">En savoir plus</button>
+            <div class="el-details-2">
+
+                <article class="card">
+                    <header class="card__thumb">
+                        <a href="#">
+                            <img src="http://picsum.photos/370/235" alt="">
+                        </a>
+                    </header>
+                    <div class="card__body">
+                        <div class="card__category"><a href="#">Photos</a></div>
+                        <div class="card__title"><a href="#">Le bedo n'est pas bon pour la santé</a></div>
+                        <div class="card__subtitle">Le conseil du jour</div>
+                        <p class="card__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur iure culpa odio, dolore illo accusantium est eligendi fugit facilis hic iusto modi dolorum voluptates delectus laudantium, ex optio omnis perferendis.
+                            Modi accusamus libero aperiam aliquid voluptatibus distinctio vero praesentium ab!
+                            <br>
+                            <a href="../html/details_event.html">Lire la suite --></a>
+                        </p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <header class="card__thumb">
+                        <a href="#">
+                            <img src="http://picsum.photos/370/235" alt="">
+                        </a>
+                    </header>
+                    <div class="card__body">
+                        <div class="card__category"><a href="#">Photos</a></div>
+                        <div class="card__title"><a href="#">Le bedo n'est pas bon pour la santé</a></div>
+                        <div class="card__subtitle">Le conseil du jour</div>
+                        <p class="card__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur iure culpa odio, dolore illo accusantium est eligendi fugit facilis hic iusto modi dolorum voluptates delectus laudantium, ex optio omnis perferendis.
+                            Modi accusamus libero aperiam aliquid voluptatibus distinctio vero praesentium ab!
+                            <br>
+                            <a href="../html/details_event.html">Lire la suite --></a>
+                        </p>
+                    </div>
+                </article>
+
             </div>
         </div>
     </section>
-
-
-    <!-- Text blockquote -->
-    <section class="container-fluid quote index">
-        <div class="container first-div">
-                <p>Aimer les autres,</p>
-                <p>c'est déjà croire en Dieu</p>
-        </div>
-    </section>
-
 
     <!-- footer -->
     <section class="container-fluid footer index">
@@ -168,17 +188,5 @@
             </section>
         </div>
     </section>
-
 </body>
-
-<!-- active nvbar -->
-<script>
-    const activePage = window.location.pathname;
-    const navLinks = document.querySelectorAll("ul a").forEach(link => {
-        if(link.href.includes(`${activePage}`)){
-            link.classList.add("active");
-        }
-    })
-</script>
-
 </html>
